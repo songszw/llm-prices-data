@@ -1,0 +1,96 @@
+{
+ "events": [
+  {
+   "date": "2026-09-24",
+   "type": "launch",
+   "title": "LLMPrices.org launched",
+   "detail": "Site launched with Gemini 3.8/3.7/3.6 Flash and Claude Opus 5, Sonnet 5, Opus 4, Sonnet 4 pricing, tracked from official docs.",
+   "source": "https://ai.google.dev/gemini-api/docs/pricing"
+  },
+  {
+   "date": "2026-09-24",
+   "type": "add",
+   "vendor": "Anthropic",
+   "title": "Anthropic lineup completed (+9 models)",
+   "detail": "Added Opus 5.5 ($4/$20), Fable 5.1 and Mythos 5.1 ($10/$50), Haiku 4.5 ($1/$5), and the Opus 4.5–4.8 / Sonnet 4.5–4.6 line.",
+   "source": "https://platform.claude.com/docs/en/about-claude/pricing"
+  },
+  {
+   "date": "2026-09-24",
+   "type": "change",
+   "vendor": "Anthropic",
+   "title": "Opus 4.5–4.8 repriced: $15/$75 → $5/$25 (-67%)",
+   "detail": "Per Anthropic docs, the late Opus 4 generation now lists at $5/$25 per MTok — a 67% cut vs Opus 4/4.1 launch pricing.",
+   "source": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "old": "15/75",
+   "new": "5/25",
+   "delta": "-67%"
+  },
+  {
+   "date": "2026-09-24",
+   "type": "add",
+   "vendor": "Google",
+   "title": "Gemini side expanded (+5 models)",
+   "detail": "Added 3.1 Pro (tiered ≤/>200k), 3.5/3.1 Flash-Lite, 3.8 Flash TTS and Omni Flash (video ≈$0.10/sec).",
+   "source": "https://ai.google.dev/gemini-api/docs/pricing"
+  },
+  {
+   "date": "2026-09-25",
+   "type": "add",
+   "vendor": "DeepSeek",
+   "title": "DeepSeek added (Flash + V4 Pro)",
+   "detail": "Flash $0.30/$1.20 and V4 Pro $1.32/$3.96 at peak, with off-peak 50% discounts and cache-hit input at $0.006/$0.044.",
+   "source": "https://api-docs.deepseek.com/quick_start/pricing"
+  },
+  {
+   "date": "2026-09-25",
+   "type": "add",
+   "vendor": "OpenAI",
+   "title": "GPT-6 family added (+7 models)",
+   "detail": "GPT-6 Astra ($10/$50), Sol ($2/$10), Luna ($0.10/$0.50), plus GPT-5.6 Sol/Cyber, 5.3 Codex and Rosalind Research. Batch = 50%, Priority = 2x.",
+   "source": "https://developers.openai.com/api/docs/pricing"
+  },
+  {
+   "date": "2026-09-25",
+   "type": "feature",
+   "title": "Public API + llms.txt",
+   "detail": "Launched free JSON API (/api/v1/prices), llms.txt index and FAQ/WebSite structured data.",
+   "source": "https://llmprices.org/api"
+  },
+  {
+   "date": "2027-01-01",
+   "type": "upcoming",
+   "vendor": "Google",
+   "title": "Gemini 3.x promo expires: prices double (+100%)",
+   "detail": "Per Google's official pricing page, promotional rates for Gemini 3.6/3.7/3.8 Flash double on Jan 1, 2027: $0.75/$3.75 → $1.50/$7.50.",
+   "source": "https://ai.google.dev/gemini-api/docs/pricing",
+   "old": "0.75/3.75",
+   "new": "1.50/7.50",
+   "delta": "+100%"
+  },
+  {
+   "date": "2026-09-26",
+   "type": "add",
+   "vendor": "xAI",
+   "title": "Grok lineup added (+5 models)",
+   "detail": "Grok 4.7/4.6 ($2/$6), 4.5 ($2/$6, cheaper cache), 4.3 ($1.25/$2.50) and Build 0.1 ($1/$2), with cached-read and 2x long-context rates from docs.x.ai.",
+   "source": "https://docs.x.ai/docs/pricing"
+  },
+  {
+   "date": "2026-09-29",
+   "type": "add",
+   "vendor": "Qwen",
+   "title": "Qwen hosted pricing added (+4 models)",
+   "detail": "Qwen3.8-27B (¥3/¥12), 3.6-27B, 3.5-122B and 3.5-35B — hosted rates on SiliconFlow, CNY per 1M tokens. Llama deferred (not listed on the captured source).",
+   "source": "https://siliconflow.cn/pricing"
+  },
+  {
+   "date": "2026-09-29",
+   "type": "change",
+   "vendor": "Qwen",
+   "title": "Qwen prices switched to international USD rates",
+   "detail": "Replaced CN-platform CNY rates with SiliconFlow international USD pricing: Qwen3.8-2.4T-A95B $2/$6 (cached $0.25), 3.6-27B $0.3/$3.2, 3.5-122B $0.26/$2.08, 3.6-35B $0.24/$1.8. CN platform still bills CNY — noted on each page.",
+   "source": "https://www.siliconflow.com/pricing"
+  }
+ ]
+}

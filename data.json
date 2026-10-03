@@ -1,0 +1,1219 @@
+{
+  "updated": "2026-09-24",
+  "source_note": "Data from official Google AI pricing docs, captured 2026-09-24. Verify before citing.",
+  "models": [
+    {
+      "slug": "gemini-3.8-flash-pricing",
+      "name": "Gemini 3.8 Flash",
+      "api_id": "gemini-3.8-flash",
+      "vendor": "Google",
+      "released": "2026-09",
+      "summary": "Google's smartest Flash model, built for long-horizon software engineering, autonomous agents and complex enterprise workflows.",
+      "free_tier": "Yes — free tier available (data used for training on free tier)",
+      "input": 0.75,
+      "input_after": 1.5,
+      "price_change_date": "2027-01-01",
+      "output": 3.75,
+      "output_after": 7.5,
+      "cache": 0.075,
+      "cache_after": 0.15,
+      "context_window": "1M",
+      "extras": [
+        "Grounding with Google Search: 5,000 free searches/month across Gemini 3.x models, then $14 per 1,000 requests",
+        "Output price includes thinking tokens",
+        "Cache storage: $0.50 per 1M tokens/hour (rises to $1.00 on 2027-01-01)"
+      ],
+      "faq": [
+        [
+          "How much does Gemini 3.8 Flash cost?",
+          "$0.75 per 1M input tokens and $3.75 per 1M output tokens (thinking included) until Dec 31, 2026. Both rates double on Jan 1, 2027."
+        ],
+        [
+          "Is Gemini 3.8 Flash free?",
+          "A free tier is available in Google AI Studio with rate limits; free-tier data may be used for product improvement."
+        ],
+        [
+          "What is the context window of Gemini 3.8 Flash?",
+          "Up to 1M tokens."
+        ],
+        [
+          "Does the output price include thinking tokens?",
+          "Yes — billed output already covers reasoning/thinking tokens."
+        ]
+      ],
+      "batch_input": 0.375,
+      "batch_output": 1.875
+    },
+    {
+      "slug": "gemini-3.7-flash-pricing",
+      "name": "Gemini 3.7 Flash",
+      "api_id": "gemini-3.7-flash",
+      "vendor": "Google",
+      "released": "2026-08",
+      "summary": "High-efficiency, high-speed Flash model for everyday coding, tool-using agents and stable multi-step workloads.",
+      "free_tier": "No free tier",
+      "input": 0.75,
+      "input_after": 1.5,
+      "price_change_date": "2027-01-01",
+      "output": 3.75,
+      "output_after": 7.5,
+      "cache": 0.075,
+      "cache_after": 0.15,
+      "context_window": "1M",
+      "extras": [
+        "Same promotional per-token pricing as Gemini 3.8 Flash during 2026",
+        "Output price includes thinking tokens",
+        "Batch API available at 50% of standard rates"
+      ],
+      "faq": [
+        [
+          "How much does Gemini 3.7 Flash cost?",
+          "$0.75 per 1M input tokens and $3.75 per 1M output tokens until Dec 31, 2026; both double on Jan 1, 2027."
+        ],
+        [
+          "Is it cheaper than Gemini 3.8 Flash?",
+          "No — during the 2026 promotional period, Gemini 3.6, 3.7 and 3.8 Flash share the same per-token rates."
+        ]
+      ],
+      "batch_input": 0.375,
+      "batch_output": 1.875
+    },
+    {
+      "slug": "gemini-3.6-flash-pricing",
+      "name": "Gemini 3.6 Flash",
+      "api_id": "gemini-3.6-flash",
+      "vendor": "Google",
+      "released": "2026-07",
+      "summary": "Previous-generation Flash model balancing speed and multimodal capability for general agent tasks.",
+      "free_tier": "No free tier",
+      "input": 0.75,
+      "input_after": 1.5,
+      "price_change_date": "2027-01-01",
+      "output": 3.75,
+      "output_after": 7.5,
+      "cache": 0.075,
+      "cache_after": 0.15,
+      "context_window": "1M",
+      "extras": [
+        "Same promotional per-token pricing as Gemini 3.8 Flash during 2026",
+        "Output price includes thinking tokens",
+        "Batch API available at 50% of standard rates"
+      ],
+      "faq": [
+        [
+          "How much does Gemini 3.6 Flash cost?",
+          "$0.75 per 1M input tokens and $3.75 per 1M output tokens until Dec 31, 2026; both double on Jan 1, 2027."
+        ],
+        [
+          "Is it cheaper than Gemini 3.8 Flash?",
+          "No — during the 2026 promotional period, Gemini 3.6, 3.7 and 3.8 Flash share the same per-token rates."
+        ]
+      ],
+      "batch_input": 0.375,
+      "batch_output": 1.875
+    },
+    {
+      "slug": "claude-opus-5-pricing",
+      "name": "Claude Opus 5",
+      "api_id": "claude-opus-5",
+      "vendor": "Anthropic",
+      "released": "2026",
+      "summary": "Anthropic's flagship model for complex, long-horizon tasks.",
+      "free_tier": "No free tier (API usage billed)",
+      "input": 5,
+      "output": 25,
+      "cache": 6.25,
+      "extras": [
+        "Cache write price: $6.25 per 1M tokens",
+        "Batch API: roughly 50% off standard rates",
+        "Prices per million tokens (MTok) as listed in Claude platform docs"
+      ],
+      "faq": [
+        [
+          "How much does Claude Opus 5 cost?",
+          "$5 per 1M input tokens and $25 per 1M output tokens on the standard API."
+        ],
+        [
+          "Is there a cheaper way to use Opus 5?",
+          "The Batch API applies roughly a 50% discount for asynchronous workloads."
+        ]
+      ],
+      "batch_input": 2.5,
+      "batch_output": 12.5
+    },
+    {
+      "slug": "claude-sonnet-5-pricing",
+      "name": "Claude Sonnet 5",
+      "api_id": "claude-sonnet-5",
+      "vendor": "Anthropic",
+      "released": "2026",
+      "summary": "The best combination of speed and intelligence in the Claude lineup.",
+      "free_tier": "No free tier (API usage billed)",
+      "input": 2,
+      "output": 10,
+      "cache": 2.5,
+      "extras": [
+        "Cache write price: $2.50 per 1M tokens",
+        "Batch API: $1 input / $5 output per MTok",
+        "Prices per million tokens (MTok) as listed in Claude platform docs"
+      ],
+      "faq": [
+        [
+          "How much does Claude Sonnet 5 cost?",
+          "$2 per 1M input tokens and $10 per 1M output tokens."
+        ],
+        [
+          "What is Claude Sonnet 5 batch pricing?",
+          "$1 per 1M input / $5 per 1M output on the Batch API."
+        ]
+      ],
+      "batch_input": 1.0,
+      "batch_output": 5.0
+    },
+    {
+      "slug": "claude-opus-4-pricing",
+      "name": "Claude Opus 4",
+      "api_id": "claude-opus-4",
+      "vendor": "Anthropic",
+      "released": "2025",
+      "summary": "Previous-generation Claude flagship, still available at premium pricing.",
+      "free_tier": "No free tier (API usage billed)",
+      "input": 15,
+      "output": 75,
+      "cache": 18.75,
+      "extras": [
+        "Cache write price: $18.75 per 1M tokens",
+        "3x the price of Opus 5 per token"
+      ],
+      "faq": [
+        [
+          "How much does Claude Opus 4 cost?",
+          "$15 per 1M input tokens and $75 per 1M output tokens."
+        ]
+      ],
+      "batch_input": 7.5,
+      "batch_output": 37.5
+    },
+    {
+      "slug": "claude-sonnet-4-pricing",
+      "name": "Claude Sonnet 4",
+      "api_id": "claude-sonnet-4",
+      "vendor": "Anthropic",
+      "released": "2025",
+      "summary": "Previous-generation Claude mid-tier model.",
+      "free_tier": "No free tier (API usage billed)",
+      "input": 3,
+      "output": 15,
+      "cache": 3.75,
+      "extras": [
+        "Cache write price: $3.75 per 1M tokens"
+      ],
+      "faq": [
+        [
+          "How much does Claude Sonnet 4 cost?",
+          "$3 per 1M input tokens and $15 per 1M output tokens."
+        ]
+      ],
+      "batch_input": 1.5,
+      "batch_output": 7.5
+    },
+    {
+      "slug": "claude-opus-5.5-pricing",
+      "name": "Claude Opus 5.5",
+      "api_id": "claude-opus-5.5",
+      "vendor": "Anthropic",
+      "released": "2026",
+      "summary": "Anthropic's latest flagship — a price cut generation: cheaper than Opus 5 while newer.",
+      "free_tier": "No free tier (API usage billed)",
+      "input": 4,
+      "output": 20,
+      "extras": [
+        "$1/MTok cheaper per token than Opus 5 ($4 vs $5 input)",
+        "Batch API: 50% discount",
+        "Prices per million tokens (MTok) from Claude platform docs"
+      ],
+      "faq": [
+        [
+          "How much does Claude Opus 5.5 cost?",
+          "$4 per 1M input tokens and $20 per 1M output tokens."
+        ],
+        [
+          "Is there a batch discount for Claude Opus 5.5?",
+          "Yes — the Anthropic Batch API applies a 50% discount."
+        ]
+      ],
+      "cache": 5,
+      "batch_input": 2.0,
+      "batch_output": 10.0
+    },
+    {
+      "slug": "claude-fable-5.1-pricing",
+      "name": "Claude Fable 5.1",
+      "api_id": "claude-fable-5.1",
+      "vendor": "Anthropic",
+      "released": "2026",
+      "summary": "New Anthropic model family for specialized workloads at premium tier pricing.",
+      "free_tier": "No free tier (API usage billed)",
+      "input": 10,
+      "output": 50,
+      "extras": [
+        "Same per-token price as Mythos 5.1 and Fable 5",
+        "Batch API: 50% discount",
+        "Prices per million tokens (MTok) from Claude platform docs"
+      ],
+      "faq": [
+        [
+          "How much does Claude Fable 5.1 cost?",
+          "$10 per 1M input tokens and $50 per 1M output tokens."
+        ],
+        [
+          "Is there a batch discount for Claude Fable 5.1?",
+          "Yes — the Anthropic Batch API applies a 50% discount."
+        ]
+      ],
+      "cache": 12.5,
+      "batch_input": 5.0,
+      "batch_output": 25.0
+    },
+    {
+      "slug": "claude-mythos-5.1-pricing",
+      "name": "Claude Mythos 5.1",
+      "api_id": "claude-mythos-5.1",
+      "vendor": "Anthropic",
+      "released": "2026",
+      "summary": "New Anthropic model family at the premium tier.",
+      "free_tier": "No free tier (API usage billed)",
+      "input": 10,
+      "output": 50,
+      "extras": [
+        "Same per-token price as Fable 5.1",
+        "Batch API: 50% discount",
+        "Prices per million tokens (MTok) from Claude platform docs"
+      ],
+      "faq": [
+        [
+          "How much does Claude Mythos 5.1 cost?",
+          "$10 per 1M input tokens and $50 per 1M output tokens."
+        ],
+        [
+          "Is there a batch discount for Claude Mythos 5.1?",
+          "Yes — the Anthropic Batch API applies a 50% discount."
+        ]
+      ],
+      "cache": 12.5,
+      "batch_input": 5.0,
+      "batch_output": 25.0
+    },
+    {
+      "slug": "claude-haiku-4.5-pricing",
+      "name": "Claude Haiku 4.5",
+      "api_id": "claude-haiku-4.5",
+      "vendor": "Anthropic",
+      "released": "2025",
+      "summary": "Anthropic's fastest, cheapest tier — 1/4 the price of Sonnet 5.",
+      "free_tier": "No free tier (API usage billed)",
+      "input": 1,
+      "output": 5,
+      "extras": [
+        "$1 input / $5 output per MTok",
+        "Batch API: 50% discount",
+        "Prices per million tokens (MTok) from Claude platform docs"
+      ],
+      "faq": [
+        [
+          "How much does Claude Haiku 4.5 cost?",
+          "$1 per 1M input tokens and $5 per 1M output tokens."
+        ],
+        [
+          "Is there a batch discount for Claude Haiku 4.5?",
+          "Yes — the Anthropic Batch API applies a 50% discount."
+        ]
+      ],
+      "cache": 1.25,
+      "batch_input": 0.5,
+      "batch_output": 2.5
+    },
+    {
+      "slug": "claude-opus-4.5-pricing",
+      "name": "Claude Opus 4.5",
+      "api_id": "claude-opus-4.5",
+      "vendor": "Anthropic",
+      "released": "2025",
+      "summary": "Legacy Opus generation — repriced down from $15/$75 to match Opus 5 rates.",
+      "free_tier": "No free tier (API usage billed)",
+      "input": 5,
+      "output": 25,
+      "extras": [
+        "Opus 4.5 through 4.8 all share $5/$25 rates",
+        "Big price drop vs original Opus 4 pricing ($15/$75)",
+        "Batch API: 50% discount"
+      ],
+      "faq": [
+        [
+          "How much does Claude Opus 4.5 cost?",
+          "$5 per 1M input tokens and $25 per 1M output tokens."
+        ],
+        [
+          "Is there a batch discount for Claude Opus 4.5?",
+          "Yes — the Anthropic Batch API applies a 50% discount."
+        ]
+      ],
+      "cache": 6.25,
+      "batch_input": 2.5,
+      "batch_output": 12.5
+    },
+    {
+      "slug": "gemini-3.1-pro-pricing",
+      "name": "Gemini 3.1 Pro",
+      "api_id": "gemini-3.1-pro-preview",
+      "vendor": "Google",
+      "released": "2026-08",
+      "summary": "Third-generation Pro model for multimodal understanding, agentic capabilities and vibe-coding. Tiered pricing by prompt length.",
+      "free_tier": "No free tier",
+      "input": 2.0,
+      "output": 12.0,
+      "cache": 0.2,
+      "extras": [
+        "Prompts over 200k tokens: $4.00 input / $18.00 output per 1M",
+        "Cache storage $4.50 per 1M tokens/hour",
+        "Prices from official Gemini API pricing docs"
+      ],
+      "faq": [
+        [
+          "How much does Gemini 3.1 Pro cost?",
+          "From $2.0 per 1M input tokens and $12.0 per 1M output tokens — see table for details."
+        ],
+        [
+          "What if my prompts exceed 200k tokens?",
+          "Long-context tier: $4.00 input / $18.00 output per 1M tokens — 2x input, 1.5x output vs the base tier."
+        ]
+      ],
+      "tiers": [
+        {
+          "label": "Prompts > 200k tokens",
+          "input": 4.0,
+          "output": 18.0,
+          "cache": 0.4
+        }
+      ],
+      "chips": [
+        ">200k tier: $4 in / $18 out"
+      ]
+    },
+    {
+      "slug": "gemini-3.5-flash-lite-pricing",
+      "name": "Gemini 3.5 Flash-Lite",
+      "api_id": "gemini-3.5-flash-lite",
+      "vendor": "Google",
+      "released": "2026-06",
+      "summary": "Cost-efficient model optimized for high-volume agentic tasks, translation and simple data processing.",
+      "free_tier": "Yes — free tier available",
+      "input": 0.3,
+      "output": 2.5,
+      "cache": 0.03,
+      "extras": [
+        "Flat $0.30 input across text / image / video / audio",
+        "Cache storage $1.00 per 1M tokens/hour",
+        "Prices from official Gemini API pricing docs"
+      ],
+      "faq": [
+        [
+          "How much does Gemini 3.5 Flash-Lite cost?",
+          "From $0.3 per 1M input tokens and $2.5 per 1M output tokens — see table for details."
+        ]
+      ],
+      "batch_input": 0.15,
+      "batch_output": 1.25
+    },
+    {
+      "slug": "gemini-3.1-flash-lite-pricing",
+      "name": "Gemini 3.1 Flash-Lite",
+      "api_id": "gemini-3.1-flash-lite",
+      "vendor": "Google",
+      "released": "2026-05",
+      "summary": "Cost-efficient Flash-Lite for high-volume workloads.",
+      "free_tier": "Yes — free tier available",
+      "input": 0.25,
+      "output": 1.5,
+      "cache": 0.025,
+      "extras": [
+        "Audio input $0.50 per 1M (text/image/video $0.25)",
+        "Cache: $0.025 text / $0.05 audio",
+        "Prices from official Gemini API pricing docs"
+      ],
+      "faq": [
+        [
+          "How much does Gemini 3.1 Flash-Lite cost?",
+          "From $0.25 per 1M input tokens and $1.5 per 1M output tokens — see table for details."
+        ]
+      ],
+      "batch_input": 0.125,
+      "batch_output": 0.75
+    },
+    {
+      "slug": "gemini-3.8-flash-tts-pricing",
+      "name": "Gemini 3.8 Flash TTS",
+      "api_id": "gemini-3.8-flash-tts",
+      "vendor": "Google",
+      "released": "2026-09",
+      "summary": "3.8 Flash text-to-speech audio model engineered for studio-grade voice fidelity and long-form stability.",
+      "free_tier": "Yes — free tier available",
+      "input": 0.5,
+      "output": 9.0,
+      "cache": 0.125,
+      "input_after": 1.0,
+      "output_after": 18.0,
+      "cache_after": 0.25,
+      "price_change_date": "2027-01-01",
+      "extras": [
+        "Text input $0.50 / audio output $9.00 per 1M tokens",
+        "Promotional rates double on Jan 1, 2027",
+        "Prices from official Gemini API pricing docs"
+      ],
+      "faq": [
+        [
+          "How much does Gemini 3.8 Flash TTS cost?",
+          "From $0.5 per 1M input tokens and $9.0 per 1M output tokens — see table for details."
+        ]
+      ],
+      "chips": [
+        "audio out: $9/1M"
+      ]
+    },
+    {
+      "slug": "gemini-omni-flash-pricing",
+      "name": "Gemini Omni Flash",
+      "api_id": "gemini-omni-1.1-flash",
+      "vendor": "Google",
+      "released": "2026-09",
+      "summary": "Next-generation video generation and editing model, generally available on the paid tier.",
+      "free_tier": "No free tier",
+      "input": 1.5,
+      "output": 9.0,
+      "extras": [
+        "Text output $9.00 / video output $17.50 per 1M tokens",
+        "Video billed at 5,792 tokens per second of 720p ≈ $0.10/sec",
+        "Prices from official Gemini API pricing docs"
+      ],
+      "faq": [
+        [
+          "How much does Gemini Omni Flash cost?",
+          "From $1.5 per 1M input tokens and $9.0 per 1M output tokens — see table for details."
+        ],
+        [
+          "How much does video output cost on Omni Flash?",
+          "$17.50 per 1M tokens — nearly 2x the text output rate. At 5,792 tokens/sec of 720p, budget ≈$0.10 per second."
+        ]
+      ],
+      "tiers": [
+        {
+          "label": "Video output (per 1M tokens)",
+          "input": null,
+          "output": 17.5
+        }
+      ],
+      "chips": [
+        "video out: $17.50/1M"
+      ]
+    },
+    {
+      "slug": "gemini-3.8-live-pricing",
+      "name": "Gemini 3.8 Live",
+      "api_id": "gemini-3.8-live",
+      "vendor": "Google",
+      "released": "2026-09",
+      "summary": "Low-latency audio-to-audio model for real-time voice agents and live conversation, with extended-thinking background reasoning.",
+      "free_tier": "Yes — free tier available",
+      "input": 0.75,
+      "output": 4.5,
+      "extras": [
+        "Audio input $3.00/1M ($0.005/min); image/video input $1.00/1M",
+        "Audio output $12.00/1M ($0.018/min)",
+        "Prices from official Gemini API pricing docs"
+      ],
+      "faq": [
+        [
+          "How much does Gemini 3.8 Live cost?",
+          "Text input $0.75 / text output $4.50 per 1M tokens; audio $3.00 in / $12.00 out per 1M tokens."
+        ],
+        [
+          "How is live audio billed?",
+          "Per token — or about $0.005/min audio input and $0.018/min audio output."
+        ]
+      ],
+      "tiers": [
+        {
+          "label": "Audio input ($0.005/min)",
+          "input": 3.0,
+          "output": null
+        },
+        {
+          "label": "Audio output ($0.018/min)",
+          "input": null,
+          "output": 12.0
+        }
+      ],
+      "chips": [
+        "audio: $3 in / $12 out (main use)"
+      ]
+    },
+    {
+      "slug": "claude-opus-4.8-pricing",
+      "name": "Claude Opus 4.8",
+      "api_id": "claude-opus-4.8",
+      "vendor": "Anthropic",
+      "released": "2025",
+      "summary": "Late Opus 4 generation — repriced to $5/$25, a third of its original launch price.",
+      "free_tier": "No free tier (API usage billed)",
+      "input": 5,
+      "output": 25,
+      "extras": [
+        "Batch API: 50% discount",
+        "Prices per million tokens (MTok) from Claude platform docs"
+      ],
+      "faq": [
+        [
+          "How much does Claude Opus 4.8 cost?",
+          "$5 per 1M input tokens and $25 per 1M output tokens."
+        ]
+      ],
+      "cache": 6.25,
+      "batch_input": 2.5,
+      "batch_output": 12.5
+    },
+    {
+      "slug": "claude-opus-4.7-pricing",
+      "name": "Claude Opus 4.7",
+      "api_id": "claude-opus-4.7",
+      "vendor": "Anthropic",
+      "released": "2025",
+      "summary": "Opus 4 generation at the repriced $5/$25 rate.",
+      "free_tier": "No free tier (API usage billed)",
+      "input": 5,
+      "output": 25,
+      "extras": [
+        "Batch API: 50% discount",
+        "Prices per million tokens (MTok) from Claude platform docs"
+      ],
+      "faq": [
+        [
+          "How much does Claude Opus 4.7 cost?",
+          "$5 per 1M input tokens and $25 per 1M output tokens."
+        ]
+      ],
+      "cache": 6.25,
+      "batch_input": 2.5,
+      "batch_output": 12.5
+    },
+    {
+      "slug": "claude-opus-4.6-pricing",
+      "name": "Claude Opus 4.6",
+      "api_id": "claude-opus-4.6",
+      "vendor": "Anthropic",
+      "released": "2025",
+      "summary": "Opus 4 generation at the repriced $5/$25 rate.",
+      "free_tier": "No free tier (API usage billed)",
+      "input": 5,
+      "output": 25,
+      "extras": [
+        "Batch API: 50% discount",
+        "Prices per million tokens (MTok) from Claude platform docs"
+      ],
+      "faq": [
+        [
+          "How much does Claude Opus 4.6 cost?",
+          "$5 per 1M input tokens and $25 per 1M output tokens."
+        ]
+      ],
+      "cache": 6.25,
+      "batch_input": 2.5,
+      "batch_output": 12.5
+    },
+    {
+      "slug": "claude-sonnet-4.6-pricing",
+      "name": "Claude Sonnet 4.6",
+      "api_id": "claude-sonnet-4.6",
+      "vendor": "Anthropic",
+      "released": "2025",
+      "summary": "Late Sonnet 4 generation at $3/$15.",
+      "free_tier": "No free tier (API usage billed)",
+      "input": 3,
+      "output": 15,
+      "extras": [
+        "Batch API: 50% discount",
+        "Prices per million tokens (MTok) from Claude platform docs"
+      ],
+      "faq": [
+        [
+          "How much does Claude Sonnet 4.6 cost?",
+          "$3 per 1M input tokens and $15 per 1M output tokens."
+        ]
+      ],
+      "cache": 3.75,
+      "batch_input": 1.5,
+      "batch_output": 7.5
+    },
+    {
+      "slug": "claude-sonnet-4.5-pricing",
+      "name": "Claude Sonnet 4.5",
+      "api_id": "claude-sonnet-4.5",
+      "vendor": "Anthropic",
+      "released": "2025",
+      "summary": "Sonnet 4 generation at $3/$15.",
+      "free_tier": "No free tier (API usage billed)",
+      "input": 3,
+      "output": 15,
+      "extras": [
+        "Batch API: 50% discount",
+        "Prices per million tokens (MTok) from Claude platform docs"
+      ],
+      "faq": [
+        [
+          "How much does Claude Sonnet 4.5 cost?",
+          "$3 per 1M input tokens and $15 per 1M output tokens."
+        ]
+      ],
+      "cache": 3.75,
+      "batch_input": 1.5,
+      "batch_output": 7.5
+    },
+    {
+      "slug": "deepseek-flash-pricing",
+      "name": "DeepSeek Flash",
+      "api_id": "deepseek-flash",
+      "vendor": "DeepSeek",
+      "released": "2026",
+      "summary": "DeepSeek-V4.1-Flash — flagship value model with 1M context, vision, thinking modes, and off-peak discounts at half price.",
+      "free_tier": "No free tier",
+      "input": 0.3,
+      "output": 1.2,
+      "cache": 0.006,
+      "context_window": "1M",
+      "chips": [
+        "off-peak 50%: $0.15 in / $0.60 out",
+        "cache-hit: $0.006 in"
+      ],
+      "extras": [
+        "Peak = standard rate; off-peak (half price) outside UTC 01:00-04:00 & 06:00-10:00 weekdays",
+        "Cache-hit input: $0.003 off-peak / $0.006 peak per 1M",
+        "Max output 384K; supports vision, JSON, tool calls, FIM",
+        "Prices from api-docs.deepseek.com"
+      ],
+      "faq": [
+        [
+          "How much does DeepSeek Flash cost?",
+          "Standard (peak): $0.30 per 1M input (cache miss) and $1.20 per 1M output. Off-peak hours are half price."
+        ],
+        [
+          "What is DeepSeek's off-peak discount?",
+          "50% off input and output outside peak hours (UTC 01:00-04:00 and 06:00-10:00, weekdays)."
+        ],
+        [
+          "Does DeepSeek Flash have a cache discount?",
+          "Yes — cache-hit input is $0.006/1M at peak (98% cheaper than cache miss)."
+        ]
+      ]
+    },
+    {
+      "slug": "deepseek-v4-pro-pricing",
+      "name": "DeepSeek V4 Pro",
+      "api_id": "deepseek-v4-pro",
+      "vendor": "DeepSeek",
+      "released": "2026",
+      "summary": "DeepSeek-V4-Pro (0813) — the pro tier with 1M context, positioned well below US flagship pricing.",
+      "free_tier": "No free tier",
+      "input": 1.32,
+      "output": 3.96,
+      "cache": 0.044,
+      "context_window": "1M",
+      "chips": [
+        "off-peak 50%: $0.66 in / $1.98 out",
+        "cache-hit: $0.044 in"
+      ],
+      "extras": [
+        "Peak = standard rate; off-peak half price (same windows as Flash)",
+        "Cache-hit input: $0.022 off-peak / $0.044 peak per 1M",
+        "Vision not supported on V4 Pro",
+        "Prices from api-docs.deepseek.com"
+      ],
+      "faq": [
+        [
+          "How much does DeepSeek V4 Pro cost?",
+          "Standard (peak): $1.32 per 1M input and $3.96 per 1M output; off-peak is half."
+        ],
+        [
+          "DeepSeek V4 Pro vs Flash — price difference?",
+          "V4 Pro is ~4.4x Flash on input and 3.3x on output at peak rates."
+        ]
+      ]
+    },
+    {
+      "slug": "openai-gpt-6-astra-pricing",
+      "name": "GPT-6 Astra",
+      "api_id": "gpt-6-astra",
+      "vendor": "OpenAI",
+      "released": "2026",
+      "summary": "OpenAI's flagship GPT-6 tier.",
+      "free_tier": "No free tier",
+      "input": 10.0,
+      "output": 50.0,
+      "cache": 1.0,
+      "batch_input": 5.0,
+      "batch_output": 25.0,
+      "extras": [
+        "Cached input (read) $1 per 1M; cache writes priced separately where shown officially",
+        "Batch API: 50% off; Priority tier: 2x standard",
+        "Prices from developers.openai.com official pricing"
+      ],
+      "faq": [
+        [
+          "How much does GPT-6 Astra cost?",
+          "$10 per 1M input and $50 per 1M output (standard tier). Batch is half; priority is 2x."
+        ]
+      ],
+      "chips": [
+        "long ctx: $20 in / $75 out"
+      ]
+    },
+    {
+      "slug": "openai-gpt-6-sol-pricing",
+      "name": "GPT-6 Sol",
+      "api_id": "gpt-6-sol",
+      "vendor": "OpenAI",
+      "released": "2026",
+      "summary": "GPT-6 mid tier — the volume workhorse.",
+      "free_tier": "No free tier",
+      "input": 2.0,
+      "output": 10.0,
+      "cache": 0.2,
+      "batch_input": 1.0,
+      "batch_output": 5.0,
+      "extras": [
+        "Cached input (read) $0.2 per 1M; cache writes priced separately where shown officially",
+        "Batch API: 50% off; Priority tier: 2x standard",
+        "Prices from developers.openai.com official pricing"
+      ],
+      "faq": [
+        [
+          "How much does GPT-6 Sol cost?",
+          "$2 per 1M input and $10 per 1M output (standard tier). Batch is half; priority is 2x."
+        ]
+      ],
+      "chips": [
+        "long ctx: $4 in / $15 out"
+      ]
+    },
+    {
+      "slug": "openai-gpt-6-luna-pricing",
+      "name": "GPT-6 Luna",
+      "api_id": "gpt-6-luna",
+      "vendor": "OpenAI",
+      "released": "2026",
+      "summary": "GPT-6 mini tier — 20x cheaper than Astra.",
+      "free_tier": "No free tier",
+      "input": 0.1,
+      "output": 0.5,
+      "cache": 0.01,
+      "batch_input": 0.05,
+      "batch_output": 0.25,
+      "extras": [
+        "Cached input (read) $0.01 per 1M; cache writes priced separately where shown officially",
+        "Batch API: 50% off; Priority tier: 2x standard",
+        "Prices from developers.openai.com official pricing"
+      ],
+      "faq": [
+        [
+          "How much does GPT-6 Luna cost?",
+          "$0.1 per 1M input and $0.5 per 1M output (standard tier). Batch is half; priority is 2x."
+        ]
+      ],
+      "chips": [
+        "long ctx: $0.20 in / $0.75 out"
+      ]
+    },
+    {
+      "slug": "openai-gpt-5.6-sol-pricing",
+      "name": "GPT-5.6 Sol",
+      "api_id": "gpt-5.6-sol",
+      "vendor": "OpenAI",
+      "released": "2026",
+      "summary": "GPT-5.6 generation; alias gpt-daybreak-blue-latest points here.",
+      "free_tier": "No free tier",
+      "input": 4.0,
+      "output": 20.0,
+      "cache": 0.4,
+      "batch_input": 2.0,
+      "batch_output": 10.0,
+      "extras": [
+        "Cached input (read) $0.4 per 1M; cache writes priced separately where shown officially",
+        "Batch API: 50% off; Priority tier: 2x standard",
+        "Prices from developers.openai.com official pricing"
+      ],
+      "faq": [
+        [
+          "How much does GPT-5.6 Sol cost?",
+          "$4 per 1M input and $20 per 1M output (standard tier). Batch is half; priority is 2x."
+        ]
+      ],
+      "chips": [
+        "long ctx: $8 in / $30 out"
+      ]
+    },
+    {
+      "slug": "openai-gpt-5.6-cyber-pricing",
+      "name": "GPT-5.6 Cyber",
+      "api_id": "gpt-5.6-cyber",
+      "vendor": "OpenAI",
+      "released": "2026",
+      "summary": "GPT-5.6 premium tier; alias gpt-daybreak-red-latest points here.",
+      "free_tier": "No free tier",
+      "input": 12.5,
+      "output": 75.0,
+      "cache": 1.25,
+      "batch_input": 6.25,
+      "batch_output": 37.5,
+      "extras": [
+        "Cached input (read) $1.25 per 1M; cache writes priced separately where shown officially",
+        "Batch API: 50% off; Priority tier: 2x standard",
+        "Prices from developers.openai.com official pricing"
+      ],
+      "faq": [
+        [
+          "How much does GPT-5.6 Cyber cost?",
+          "$12.5 per 1M input and $75 per 1M output (standard tier). Batch is half; priority is 2x."
+        ]
+      ]
+    },
+    {
+      "slug": "openai-gpt-5.3-codex-pricing",
+      "name": "GPT-5.3 Codex",
+      "api_id": "gpt-5.3-codex",
+      "vendor": "OpenAI",
+      "released": "2026",
+      "summary": "Coding-specialized model.",
+      "free_tier": "No free tier",
+      "input": 1.75,
+      "output": 14.0,
+      "cache": 0.175,
+      "batch_input": 0.875,
+      "batch_output": 7.0,
+      "extras": [
+        "Cached input (read) $0.175 per 1M; cache writes priced separately where shown officially",
+        "Batch API: 50% off; Priority tier: 2x standard",
+        "Prices from developers.openai.com official pricing"
+      ],
+      "faq": [
+        [
+          "How much does GPT-5.3 Codex cost?",
+          "$1.75 per 1M input and $14 per 1M output (standard tier). Batch is half; priority is 2x."
+        ]
+      ]
+    },
+    {
+      "slug": "openai-gpt-rosalind-pricing",
+      "name": "GPT Rosalind Research",
+      "api_id": "gpt-rosalind-research",
+      "vendor": "OpenAI",
+      "released": "2026",
+      "summary": "Research-oriented model.",
+      "free_tier": "No free tier",
+      "input": 5.0,
+      "output": 25.0,
+      "cache": 0.5,
+      "batch_input": 2.5,
+      "batch_output": 12.5,
+      "extras": [
+        "Cached input (read) $0.5 per 1M; cache writes priced separately where shown officially",
+        "Batch API: 50% off; Priority tier: 2x standard",
+        "Prices from developers.openai.com official pricing"
+      ],
+      "faq": [
+        [
+          "How much does GPT Rosalind Research cost?",
+          "$5 per 1M input and $25 per 1M output (standard tier). Batch is half; priority is 2x."
+        ]
+      ]
+    },
+    {
+      "slug": "grok-4.7-pricing",
+      "name": "Grok 4.7",
+      "api_id": "grok-4.7",
+      "vendor": "xAI",
+      "released": "2026",
+      "summary": "xAI's current flagship reasoning model.",
+      "free_tier": "No free tier",
+      "input": 2.0,
+      "output": 6.0,
+      "cache": 0.5,
+      "chips": [
+        "long ctx: $4 in / $12 out"
+      ],
+      "extras": [
+        "Cached input (read) $0.5 per 1M",
+        "Long-context tier: 2x standard rates",
+        "Secondary regions bill ~10% higher (e.g. 4.7: $2.20/$6.60)",
+        "Prices from docs.x.ai official pricing JSON"
+      ],
+      "faq": [
+        [
+          "How much does Grok 4.7 cost?",
+          "$2 per 1M input and $6 per 1M output; cached reads at $0.5."
+        ],
+        [
+          "Does Grok charge more for long context?",
+          "Yes — long-context prompts bill at 2x the standard rate."
+        ]
+      ]
+    },
+    {
+      "slug": "grok-4.6-pricing",
+      "name": "Grok 4.6",
+      "api_id": "grok-4.6",
+      "vendor": "xAI",
+      "released": "2026",
+      "summary": "Previous flagship generation, same headline rates as 4.7.",
+      "free_tier": "No free tier",
+      "input": 2.0,
+      "output": 6.0,
+      "cache": 0.5,
+      "chips": [
+        "long ctx: $4 in / $12 out"
+      ],
+      "extras": [
+        "Cached input (read) $0.5 per 1M",
+        "Long-context tier: 2x standard rates",
+        "Secondary regions bill ~10% higher (e.g. 4.7: $2.20/$6.60)",
+        "Prices from docs.x.ai official pricing JSON"
+      ],
+      "faq": [
+        [
+          "How much does Grok 4.6 cost?",
+          "$2 per 1M input and $6 per 1M output; cached reads at $0.5."
+        ],
+        [
+          "Does Grok charge more for long context?",
+          "Yes — long-context prompts bill at 2x the standard rate."
+        ]
+      ]
+    },
+    {
+      "slug": "grok-4.5-pricing",
+      "name": "Grok 4.5",
+      "api_id": "grok-4.5",
+      "vendor": "xAI",
+      "released": "2026",
+      "summary": "Mid-cycle Grok generation with cheaper cached reads.",
+      "free_tier": "No free tier",
+      "input": 2.0,
+      "output": 6.0,
+      "cache": 0.3,
+      "chips": [
+        "long ctx: $4 in / $12 out"
+      ],
+      "extras": [
+        "Cached input (read) $0.3 per 1M",
+        "Long-context tier: 2x standard rates",
+        "Secondary regions bill ~10% higher (e.g. 4.7: $2.20/$6.60)",
+        "Prices from docs.x.ai official pricing JSON"
+      ],
+      "faq": [
+        [
+          "How much does Grok 4.5 cost?",
+          "$2 per 1M input and $6 per 1M output; cached reads at $0.3."
+        ],
+        [
+          "Does Grok charge more for long context?",
+          "Yes — long-context prompts bill at 2x the standard rate."
+        ]
+      ]
+    },
+    {
+      "slug": "grok-4.3-pricing",
+      "name": "Grok 4.3",
+      "api_id": "grok-4.3",
+      "vendor": "xAI",
+      "released": "2026",
+      "summary": "Budget tier — the cheapest Grok text model.",
+      "free_tier": "No free tier",
+      "input": 1.25,
+      "output": 2.5,
+      "cache": 0.2,
+      "chips": [
+        "long ctx: $2.5 in / $5 out"
+      ],
+      "extras": [
+        "Cached input (read) $0.2 per 1M",
+        "Long-context tier: 2x standard rates",
+        "Secondary regions bill ~10% higher (e.g. 4.7: $2.20/$6.60)",
+        "Prices from docs.x.ai official pricing JSON"
+      ],
+      "faq": [
+        [
+          "How much does Grok 4.3 cost?",
+          "$1.25 per 1M input and $2.5 per 1M output; cached reads at $0.2."
+        ],
+        [
+          "Does Grok charge more for long context?",
+          "Yes — long-context prompts bill at 2x the standard rate."
+        ]
+      ]
+    },
+    {
+      "slug": "grok-build-pricing",
+      "name": "Grok Build 0.1",
+      "api_id": "grok-build-0.1",
+      "vendor": "xAI",
+      "released": "2026",
+      "summary": "Entry-level model for high-volume builds.",
+      "free_tier": "No free tier",
+      "input": 1.0,
+      "output": 2.0,
+      "cache": 0.2,
+      "chips": [
+        "long ctx: $2 in / $4 out"
+      ],
+      "extras": [
+        "Cached input (read) $0.2 per 1M",
+        "Long-context tier: 2x standard rates",
+        "Secondary regions bill ~10% higher (e.g. 4.7: $2.20/$6.60)",
+        "Prices from docs.x.ai official pricing JSON"
+      ],
+      "faq": [
+        [
+          "How much does Grok Build 0.1 cost?",
+          "$1 per 1M input and $2 per 1M output; cached reads at $0.2."
+        ],
+        [
+          "Does Grok charge more for long context?",
+          "Yes — long-context prompts bill at 2x the standard rate."
+        ]
+      ]
+    },
+    {
+      "slug": "qwen3.8-flagship-pricing",
+      "name": "Qwen3.8-2.4T-A95B",
+      "api_id": "Qwen/Qwen3.8-2.4T-A95B",
+      "vendor": "Qwen",
+      "released": "2026",
+      "summary": "Alibaba's flagship MoE — 2.4T total params / 95B active, 1M context.",
+      "free_tier": "Hosted — see SiliconFlow for free tiers",
+      "input": 2.0,
+      "output": 6.0,
+      "context_window": "1M",
+      "extras": [
+        "Alibaba's CN platform (siliconflow.cn) bills the same family in CNY at different rates — e.g. Qwen3.6-27B is ¥3/¥18 there",
+        "Hosted on SiliconFlow (international), USD per 1M tokens, captured 2026-09-29.",
+        "No official Alibaba international API price page is easily accessible; hosted rates shown"
+      ],
+      "faq": [
+        [
+          "How much does Qwen3.8-2.4T-A95B cost?",
+          "Hosted on SiliconFlow: $2 input / $6 output per 1M tokens (USD)."
+        ],
+        [
+          "Is this Alibaba's official API price?",
+          "No — hosted rates on SiliconFlow. Alibaba Model Studio sells separately."
+        ]
+      ],
+      "cache": 0.25,
+      "chips": [
+        "hosted via SiliconFlow"
+      ],
+      "hosted": true
+    },
+    {
+      "slug": "qwen3.6-27b-pricing",
+      "name": "Qwen3.6-27B",
+      "api_id": "Qwen/Qwen3.6-27B",
+      "vendor": "Qwen",
+      "released": "2026",
+      "summary": "Previous-gen dense workhorse.",
+      "free_tier": "Hosted — see SiliconFlow for free tiers",
+      "input": 0.3,
+      "output": 3.2,
+      "context_window": "262K",
+      "extras": [
+        "Alibaba's CN platform (siliconflow.cn) bills the same family in CNY at different rates — e.g. Qwen3.6-27B is ¥3/¥18 there",
+        "Hosted on SiliconFlow (international), USD per 1M tokens, captured 2026-09-29.",
+        "No official Alibaba international API price page is easily accessible; hosted rates shown"
+      ],
+      "faq": [
+        [
+          "How much does Qwen3.6-27B cost?",
+          "Hosted on SiliconFlow: $0.3 input / $3.2 output per 1M tokens (USD)."
+        ],
+        [
+          "Is this Alibaba's official API price?",
+          "No — hosted rates on SiliconFlow. Alibaba Model Studio sells separately."
+        ]
+      ],
+      "chips": [
+        "hosted via SiliconFlow"
+      ],
+      "hosted": true
+    },
+    {
+      "slug": "qwen3.5-122b-pricing",
+      "name": "Qwen3.5-122B-A10B",
+      "api_id": "Qwen/Qwen3.5-122B-A10B",
+      "vendor": "Qwen",
+      "released": "2026",
+      "summary": "Value MoE flagship — near-flagship quality at budget rates.",
+      "free_tier": "Hosted — see SiliconFlow for free tiers",
+      "input": 0.26,
+      "output": 2.08,
+      "context_window": "262K",
+      "extras": [
+        "Alibaba's CN platform (siliconflow.cn) bills the same family in CNY at different rates — e.g. Qwen3.6-27B is ¥3/¥18 there",
+        "Hosted on SiliconFlow (international), USD per 1M tokens, captured 2026-09-29.",
+        "No official Alibaba international API price page is easily accessible; hosted rates shown"
+      ],
+      "faq": [
+        [
+          "How much does Qwen3.5-122B-A10B cost?",
+          "Hosted on SiliconFlow: $0.26 input / $2.08 output per 1M tokens (USD)."
+        ],
+        [
+          "Is this Alibaba's official API price?",
+          "No — hosted rates on SiliconFlow. Alibaba Model Studio sells separately."
+        ]
+      ],
+      "chips": [
+        "hosted via SiliconFlow"
+      ],
+      "hosted": true
+    },
+    {
+      "slug": "qwen3.6-35b-pricing",
+      "name": "Qwen3.6-35B-A3B",
+      "api_id": "Qwen/Qwen3.6-35B-A3B",
+      "vendor": "Qwen",
+      "released": "2026",
+      "summary": "Ultra-budget MoE tier with cache discount.",
+      "free_tier": "Hosted — see SiliconFlow for free tiers",
+      "input": 0.24,
+      "output": 1.8,
+      "context_window": "262K",
+      "extras": [
+        "Alibaba's CN platform (siliconflow.cn) bills the same family in CNY at different rates — e.g. Qwen3.6-27B is ¥3/¥18 there",
+        "Hosted on SiliconFlow (international), USD per 1M tokens, captured 2026-09-29.",
+        "No official Alibaba international API price page is easily accessible; hosted rates shown"
+      ],
+      "faq": [
+        [
+          "How much does Qwen3.6-35B-A3B cost?",
+          "Hosted on SiliconFlow: $0.24 input / $1.8 output per 1M tokens (USD)."
+        ],
+        [
+          "Is this Alibaba's official API price?",
+          "No — hosted rates on SiliconFlow. Alibaba Model Studio sells separately."
+        ]
+      ],
+      "cache": 0.15,
+      "chips": [
+        "hosted via SiliconFlow"
+      ],
+      "hosted": true
+    }
+  ]
+}
