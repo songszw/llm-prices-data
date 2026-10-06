@@ -91,6 +91,22 @@
    "title": "Qwen prices switched to international USD rates",
    "detail": "Replaced CN-platform CNY rates with SiliconFlow international USD pricing: Qwen3.8-2.4T-A95B $2/$6 (cached $0.25), 3.6-27B $0.3/$3.2, 3.5-122B $0.26/$2.08, 3.6-35B $0.24/$1.8. CN platform still bills CNY — noted on each page.",
    "source": "https://www.siliconflow.com/pricing"
+  },
+  {
+   "date": "2026-10-04",
+   "type": "add",
+   "vendor": "Anthropic",
+   "title": "Claude Sonnet 5.5 added ($2/$10)",
+   "detail": "Newest Sonnet generation at unchanged Sonnet 5 rates — capability upgrade at no extra cost.",
+   "source": "https://platform.claude.com/docs/en/about-claude/pricing"
+  },
+  {
+   "date": "2026-10-04",
+   "type": "add",
+   "vendor": "OpenAI",
+   "title": "GPT-6.1 Sol added ($2/$10)",
+   "detail": "6.1 generation of the Sol workhorse, same headline rates as 6.0: $2/$10, cached $0.10, batch $1/$5, long-context 2x.",
+   "source": "https://developers.openai.com/api/docs/pricing"
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-24",
+  "updated": "2026-10-05",
   "source_note": "Data from official Google AI pricing docs, captured 2026-09-24. Verify before citing.",
   "models": [
     {
@@ -1214,6 +1214,64 @@
         "hosted via SiliconFlow"
       ],
       "hosted": true
+    },
+    {
+      "slug": "claude-sonnet-5.5-pricing",
+      "name": "Claude Sonnet 5.5",
+      "api_id": "claude-sonnet-5.5",
+      "vendor": "Anthropic",
+      "released": "2026-10",
+      "summary": "The newest Sonnet generation — same per-token pricing as Sonnet 5, newer model.",
+      "free_tier": "No free tier (API usage billed)",
+      "input": 2,
+      "output": 10,
+      "extras": [
+        "Same $2/$10 rates as Sonnet 5 — a free upgrade in capability",
+        "Batch API: 50% discount",
+        "Prices per million tokens from Claude platform docs"
+      ],
+      "faq": [
+        [
+          "How much does Claude Sonnet 5.5 cost?",
+          "$2 per 1M input and $10 per 1M output — unchanged from Sonnet 5."
+        ],
+        [
+          "Is Sonnet 5.5 more expensive than 5?",
+          "No — same rates, newer model."
+        ]
+      ]
+    },
+    {
+      "slug": "openai-gpt-6.1-sol-pricing",
+      "name": "GPT-6.1 Sol",
+      "api_id": "gpt-6.1-sol",
+      "vendor": "OpenAI",
+      "released": "2026-10",
+      "summary": "The 6.1 generation of GPT Sol — same headline rates as 6.0, newer model.",
+      "free_tier": "No free tier",
+      "input": 2.0,
+      "output": 10.0,
+      "cache": 0.1,
+      "batch_input": 1.0,
+      "batch_output": 5.0,
+      "chips": [
+        "long ctx: $4 in / $15 out"
+      ],
+      "extras": [
+        "Cached input (read) $0.10 per 1M",
+        "Long-context tier 2x; Batch 50% off; Priority 2x",
+        "Prices from developers.openai.com"
+      ],
+      "faq": [
+        [
+          "How much does GPT-6.1 Sol cost?",
+          "$2 per 1M input and $10 per 1M output — identical to GPT-6 Sol."
+        ],
+        [
+          "Is 6.1 Sol cheaper than 6.0 Sol?",
+          "No — same price, newer generation."
+        ]
+      ]
     }
   ]
 }
