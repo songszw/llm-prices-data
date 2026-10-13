@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05",
+  "updated": "2026-10-12",
   "source_note": "Data from official Google AI pricing docs, captured 2026-09-24. Verify before citing.",
   "models": [
     {
@@ -50,7 +50,7 @@
       "api_id": "gemini-3.7-flash",
       "vendor": "Google",
       "released": "2026-08",
-      "summary": "High-efficiency, high-speed Flash model for everyday coding, tool-using agents and stable multi-step workloads.",
+      "summary": "Previous-generation Flash model. No longer listed on Google’s official pricing page as of October 2026 — likely retired; rates below are the last listed prices.",
       "free_tier": "No free tier",
       "input": 0.75,
       "input_after": 1.5,
@@ -61,6 +61,7 @@
       "cache_after": 0.15,
       "context_window": "1M",
       "extras": [
+        "REMOVED from official pricing page Oct 2026 — historical rates",
         "Same promotional per-token pricing as Gemini 3.8 Flash during 2026",
         "Output price includes thinking tokens",
         "Batch API available at 50% of standard rates"
@@ -76,7 +77,8 @@
         ]
       ],
       "batch_input": 0.375,
-      "batch_output": 1.875
+      "batch_output": 1.875,
+      "deprecated": "2026-10"
     },
     {
       "slug": "gemini-3.6-flash-pricing",

@@ -1,6 +1,21 @@
 {
  "events": [
   {
+   "date": "2026-10-12",
+   "type": "feature",
+   "title": "Comparison pages launched (+3)",
+   "detail": "Head-to-head cost comparisons with workload calculator: GPT-6 Sol vs 5.6 Sol, GPT-6 Astra vs Luna (100x gap), Gemini 3.8 Flash vs 3.1 Pro — triggered by comparison queries forming in search autocomplete.",
+   "source": "https://llmprices.org/compare/gpt-6-sol-vs-gpt-5.6-sol"
+  },
+  {
+   "date": "2026-10-12",
+   "type": "change",
+   "vendor": "Google",
+   "title": "Gemini 3.7 Flash removed from official pricing page",
+   "detail": "Google delisted 3.7 Flash from ai.google.dev pricing (3.8 and 3.6 remain at $0.75/$3.75 promo). Likely retired — page kept with historical rates and deprecation banner.",
+   "source": "https://ai.google.dev/gemini-api/docs/pricing"
+  },
+  {
    "date": "2026-09-24",
    "type": "launch",
    "title": "LLMPrices.org launched",
