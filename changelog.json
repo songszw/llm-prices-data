@@ -1,6 +1,22 @@
 {
  "events": [
   {
+   "date": "2026-10-16",
+   "type": "add",
+   "vendor": "Google",
+   "title": "Gemini 4 Argon added (no public pricing yet)",
+   "detail": "Flagship reasoning model, enterprise-only at launch. Official pricing page shows 'Not available'. Will update when Google publishes rates.",
+   "source": "https://ai.google.dev/gemini-api/docs/pricing"
+  },
+  {
+   "date": "2026-10-16",
+   "type": "add",
+   "vendor": "Anthropic",
+   "title": "Claude Haiku 5.5 added ($0.10/$0.50 — cheapest Claude ever)",
+   "detail": "Ultra-budget tier with long-context split at 100K tokens (>100K: $2.50/$1.00). 10x cheaper than Haiku 4.5.",
+   "source": "https://platform.claude.com/docs/en/about-claude/pricing"
+  },
+  {
    "date": "2026-10-12",
    "type": "feature",
    "title": "Comparison pages launched (+3)",
