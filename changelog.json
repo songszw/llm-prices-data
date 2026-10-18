@@ -2,6 +2,17 @@
  "events": [
   {
    "date": "2026-10-16",
+   "type": "change",
+   "vendor": "Google",
+   "title": "Gemini 4 Argon pricing published: $2/$10 promo, doubles Dec 1 (+100%)",
+   "detail": "Google published Argon pricing after initially showing 'Not available'. Introductory rates: $2 input / $10 output / $0.10 cache through Nov 30. All rates double Dec 1 — one month BEFORE the Gemini 3.x Jan 1 doubling. Two consecutive price increases in 31 days.",
+   "source": "https://ai.google.dev/gemini-api/docs/pricing",
+   "old": "TBA",
+   "new": "2.00/10.00",
+   "delta": "first published"
+  },
+  {
+   "date": "2026-10-16",
    "type": "add",
    "vendor": "Google",
    "title": "Gemini 4 Argon added (no public pricing yet)",

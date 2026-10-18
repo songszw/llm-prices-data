@@ -1316,29 +1316,37 @@
       "api_id": "gemini-4-argon",
       "vendor": "Google",
       "released": "2026-10",
-      "summary": "Google's flagship reasoning model for complex software engineering, deep math/science, autonomous multi-step agents. Enterprise-grade — no public API pricing yet.",
-      "free_tier": "Not available (no free tier, no Pro plan)",
-      "input": null,
-      "output": null,
+      "summary": "Google's flagship reasoning model. Introductory pricing doubles on Dec 1, 2026 — one month BEFORE the Gemini 3.x family doubles on Jan 1.",
+      "free_tier": "Not available (no free tier)",
+      "input": 2.0,
+      "output": 10.0,
       "extras": [
-        "Pricing listed as 'Not available' on official pricing page as of Oct 2026",
-        "Only available via enterprise/custom arrangements",
+        "Introductory rates through Nov 30, 2026; 100% increase Dec 1",
+        "Non-Global (US-only inference) rates are 10% higher ($2.20/$11.00 promo)",
         "1M token context, long-decode generation",
         "Built for autonomous agents and complex reasoning"
       ],
       "faq": [
         [
           "How much does Gemini 4 Argon cost?",
-          "Pricing is not publicly listed yet — Google marks it as 'Not available' on the API pricing page. Likely enterprise-only at launch."
+          "$2.00 per 1M input and $10.00 per 1M output at introductory rates through Nov 30, 2026. Doubles to $4/$20 on Dec 1."
         ],
         [
-          "Is Gemini 4 Argon available on the free tier?",
-          "No — it's excluded from both the free tier and Google AI Pro plan."
+          "When does Gemini 4 Argon pricing change?",
+          "December 1, 2026 — all rates double (100% increase). This is one month before Gemini 3.x doubles on Jan 1, 2027."
         ],
         [
-          "What is Gemini 4 Argon?",
-          "Google's flagship reasoning model, built for complex software engineering, mathematical/scientific problem solving, and autonomous multi-step agents."
+          "What is the non-Global rate?",
+          "US-only inference (inference_geo: 'us') carries a 1.1x multiplier: $2.20/$11.00 promo, $4.40/$22.00 standard."
         ]
+      ],
+      "cache": 0.1,
+      "input_after": 4.0,
+      "output_after": 20.0,
+      "cache_after": 0.2,
+      "price_change_date": "2026-12-01",
+      "chips": [
+        "doubles Dec 1: $4 in / $20 out"
       ]
     }
   ]
