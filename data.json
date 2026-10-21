@@ -849,16 +849,21 @@
       "extras": [
         "Cached input (read) $0.4 per 1M; cache writes priced separately where shown officially",
         "Batch API: 50% off; Priority tier: 2x standard",
-        "Prices from developers.openai.com official pricing"
+        "Prices from developers.openai.com official pricing",
+        "Promotional pricing available at least through November 21, 2026 — may increase after"
       ],
       "faq": [
         [
           "How much does GPT-5.6 Sol cost?",
           "$4 per 1M input and $20 per 1M output (standard tier). Batch is half; priority is 2x."
+        ],
+        [
+          "When does GPT-5.6 Sol promotional pricing end?",
+          "At least through November 21, 2026, per OpenAI's pricing page. Standard rates may apply after."
         ]
       ],
       "chips": [
-        "long ctx: $8 in / $30 out"
+        "promo ends Nov 21, 2026"
       ]
     },
     {
@@ -1347,6 +1352,29 @@
       "price_change_date": "2026-12-01",
       "chips": [
         "doubles Dec 1: $4 in / $20 out"
+      ]
+    },
+    {
+      "slug": "openai-gpt-rosalind-discovery-pricing",
+      "name": "GPT Rosalind Discovery",
+      "api_id": "gpt-rosalind-discovery",
+      "vendor": "OpenAI",
+      "released": "2026-10",
+      "summary": "Rosalind Discovery — life sciences research model, same $5/$25 rates as Rosalind Research.",
+      "free_tier": "No free tier",
+      "input": 5.0,
+      "output": 25.0,
+      "cache": 0.5,
+      "extras": [
+        "Same rates as gpt-rosalind-research",
+        "Cached input $0.50/1M",
+        "Prices from developers.openai.com"
+      ],
+      "faq": [
+        [
+          "How much does GPT Rosalind Discovery cost?",
+          "$5 per 1M input and $25 per 1M output."
+        ]
       ]
     }
   ]

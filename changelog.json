@@ -1,6 +1,14 @@
 {
  "events": [
   {
+   "date": "2026-10-21",
+   "type": "add",
+   "vendor": "OpenAI",
+   "title": "Rosalind Discovery added + GPT-5.6 Sol promo expiry revealed (Nov 21)",
+   "detail": "New model gpt-rosalind-discovery ($5/$25, same as Research). GPT-5.6 Sol promotional pricing 'available at least through November 21, 2026' — potentially a third price increase event in the Nov-Jan window.",
+   "source": "https://developers.openai.com/api/docs/pricing"
+  },
+  {
    "date": "2026-10-16",
    "type": "change",
    "vendor": "Google",
