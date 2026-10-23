@@ -1,6 +1,14 @@
 {
  "events": [
   {
+   "date": "2026-10-23",
+   "type": "add",
+   "vendor": "Google",
+   "title": "Nano Banana 2.1 added ($0.50 in / $30 image out)",
+   "detail": "Google's image generation model now on the pricing page. Text input $0.50/1M, image output $30/1M. Previously only referenced in CSS — now has full pricing data.",
+   "source": "https://ai.google.dev/gemini-api/docs/pricing"
+  },
+  {
    "date": "2026-10-21",
    "type": "add",
    "vendor": "OpenAI",

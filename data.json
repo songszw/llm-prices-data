@@ -681,7 +681,7 @@
     },
     {
       "slug": "deepseek-flash-pricing",
-      "name": "DeepSeek Flash",
+      "name": "DeepSeek V4.1 Flash",
       "api_id": "deepseek-flash",
       "vendor": "DeepSeek",
       "released": "2026",
@@ -703,11 +703,11 @@
       ],
       "faq": [
         [
-          "How much does DeepSeek Flash cost?",
+          "How much does DeepSeek V4.1 Flash cost?",
           "Standard (peak): $0.30 per 1M input (cache miss) and $1.20 per 1M output. Off-peak hours are half price."
         ],
         [
-          "What is DeepSeek's off-peak discount?",
+          "What is DeepSeek V4.1 Flash off-peak discount?",
           "50% off input and output outside peak hours (UTC 01:00-04:00 and 06:00-10:00, weekdays)."
         ],
         [
@@ -1374,6 +1374,47 @@
         [
           "How much does GPT Rosalind Discovery cost?",
           "$5 per 1M input and $25 per 1M output."
+        ]
+      ]
+    },
+    {
+      "slug": "gemini-nano-banana-2.1-pricing",
+      "name": "Gemini Nano Banana 2.1",
+      "api_id": "gemini-nano-banana-2.1",
+      "vendor": "Google",
+      "released": "2026-10",
+      "summary": "Google's image generation and conversational editing model — high-efficiency generation with multi-turn character consistency, accurate text rendering, and 1K/2K/4K output.",
+      "free_tier": "Yes — free tier available",
+      "input": 0.5,
+      "output": 2.0,
+      "chips": [
+        "image output: $30/1M tokens",
+        "audio in: $3.00 / out: $12.00"
+      ],
+      "extras": [
+        "Image output: $30 per 1M tokens (Standard), $15 (Batch)",
+        "Text input $0.50 / text output $2.00 per 1M tokens",
+        "Audio/video input $3.00, audio output $12.00 per 1M",
+        "Supports 1K, 2K, and 4K resolution output",
+        "Update to Nano Banana 2 (Gemini 3.1 Flash Image)",
+        "Prices from Google AI official pricing page"
+      ],
+      "faq": [
+        [
+          "How much does Nano Banana 2.1 cost?",
+          "Text input $0.50/1M, text output $2.00/1M, image output $30/1M tokens. Audio/video input $3.00/1M."
+        ],
+        [
+          "Is Nano Banana 2.1 free?",
+          "A free tier is available with limited access."
+        ],
+        [
+          "What resolutions does Nano Banana 2.1 support?",
+          "1K, 2K, and 4K image output resolutions."
+        ],
+        [
+          "Is Nano Banana 2.1 different from Gemini 3.1 Flash Image?",
+          "Nano Banana 2.1 is an update to Nano Banana 2 (which was Gemini 3.1 Flash Image), with improved visual quality and character consistency."
         ]
       ]
     }
