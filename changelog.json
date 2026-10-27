@@ -1,6 +1,27 @@
 {
  "events": [
   {
+   "date": "2026-10-26",
+   "type": "fix",
+   "title": "Haiku 5.5 long-context prices corrected (input/output were reversed)",
+   "detail": "Mathematical proof: cache_write_5min = 1.25×input → $0.625/1.25 = $0.50 input (not $2.50). Output is $2.50 (not $1.00). Also added gpt-4o-mini-transcribe ($1.25/$5.00) to changelog (was missing).",
+   "source": "https://platform.claude.com/docs/en/about-claude/pricing"
+  },
+  {
+   "date": "2026-10-26",
+   "type": "add",
+   "title": "Medium-priority models + comparison pages expansion",
+   "detail": "+6 models (Opus 4.1, Flash Image, Pro Image, Transcribe×3) and +3 comparison pages (1 removed: veo-vs-sora 500, 1 replaced) (Grok 4.6vs4.7, Realtime vs Mini, Haiku5.5 vs Luna, Veo3.1 vs Sora2). Now 61 models.",
+   "source": "https://llmprices.org"
+  },
+  {
+   "date": "2026-10-26",
+   "type": "add",
+   "title": "Major expansion: +8 models (Realtime/Image/Live/Chat-Latest/Fable5/Mythos5/Veo3.1)",
+   "detail": "Added GPT Realtime 2.1($32/$64) + Mini($10/$20), GPT Image 2.5($8/$30), Chat Latest($5/$30), GPT Live 1($0.05/min), Fable 5, Mythos 5, Veo 3.1($0.40/sec). Now 55 models across 6 providers.",
+   "source": "https://developers.openai.com/api/docs/pricing"
+  },
+  {
    "date": "2026-10-23",
    "type": "add",
    "vendor": "Google",

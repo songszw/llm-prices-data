@@ -1286,13 +1286,13 @@
       "api_id": "claude-haiku-5.5",
       "vendor": "Anthropic",
       "released": "2026-10",
-      "summary": "The cheapest Claude ever — $0.10/$0.50 per MTok for prompts up to 100K tokens, designed for high-volume classification, extraction and routing.",
+      "summary": "The cheapest Claude ever — $0.10/$0.50 per MTok for ≤100K, $0.50/$2.50 for >100K. Designed for high-volume classification, extraction and routing.",
       "free_tier": "No free tier",
       "input": 0.1,
       "output": 0.5,
       "cache": 0.125,
       "chips": [
-        "long ctx >100K: $2.50 in / $1 out"
+        "long ctx >100K: $0.50 in / $2.50 out"
       ],
       "extras": [
         "First Claude with long-context tiering (100K threshold)",
@@ -1303,17 +1303,19 @@
       "faq": [
         [
           "How much does Claude Haiku 5.5 cost?",
-          "$0.10 per 1M input and $0.50 per 1M output for prompts up to 100K tokens. Prompts over 100K bill at $2.50/$1.00."
+          "$0.10 per 1M input and $0.50 per 1M output for prompts up to 100K tokens. Prompts over 100K bill at $0.50/$2.50 per MTok."
         ],
         [
           "Is Haiku 5.5 the cheapest Claude?",
-          "Yes — 10x cheaper input and 10x cheaper output than Haiku 4.5 ($1/$5)."
+          "Yes — 10x cheaper input than Haiku 4.5 ($0.10 vs $1.00)."
         ],
         [
           "Does Haiku 5.5 have a long-context tier?",
-          "Yes — prompts exceeding 100K tokens bill at $2.50 input / $1.00 output per MTok."
+          "Yes — prompts over 100K tokens bill at $0.50 input / $2.50 output per MTok. Verified by cache multiplier formula (1.25×, 2×, 0.1×)."
         ]
-      ]
+      ],
+      "batch_input": 0.05,
+      "batch_output": 0.25
     },
     {
       "slug": "gemini-4-argon-pricing",
@@ -1383,26 +1385,26 @@
       "api_id": "gemini-nano-banana-2.1",
       "vendor": "Google",
       "released": "2026-10",
-      "summary": "Google's image generation and conversational editing model — high-efficiency generation with multi-turn character consistency, accurate text rendering, and 1K/2K/4K output.",
+      "summary": "Google's image generation model. Priced per image token, not per text token.",
       "free_tier": "Yes — free tier available",
-      "input": 0.5,
-      "output": 2.0,
+      "input": null,
+      "output": null,
       "chips": [
-        "image output: $30/1M tokens",
-        "audio in: $3.00 / out: $12.00"
+        "image output: $30/1M tokens (Std)",
+        "image output: $15/1M (Batch)"
       ],
       "extras": [
         "Image output: $30 per 1M tokens (Standard), $15 (Batch)",
-        "Text input $0.50 / text output $2.00 per 1M tokens",
-        "Audio/video input $3.00, audio output $12.00 per 1M",
-        "Supports 1K, 2K, and 4K resolution output",
+        "1K image = $0.034, 2K = $0.050, 4K = $0.113",
+        "No separate text token pricing on official page",
+        "Supports 1K, 2K, and 4K resolution",
         "Update to Nano Banana 2 (Gemini 3.1 Flash Image)",
         "Prices from Google AI official pricing page"
       ],
       "faq": [
         [
           "How much does Nano Banana 2.1 cost?",
-          "Text input $0.50/1M, text output $2.00/1M, image output $30/1M tokens. Audio/video input $3.00/1M."
+          "Image output: $30 per 1M tokens (Standard), $15 (Batch). A 1K image costs $0.034."
         ],
         [
           "Is Nano Banana 2.1 free?",
@@ -1411,10 +1413,411 @@
         [
           "What resolutions does Nano Banana 2.1 support?",
           "1K, 2K, and 4K image output resolutions."
+        ]
+      ],
+      "cache": null
+    },
+    {
+      "slug": "openai-gpt-realtime-2.1-pricing",
+      "name": "GPT Realtime 2.1",
+      "api_id": "gpt-realtime-2.1",
+      "vendor": "OpenAI",
+      "released": "2026",
+      "summary": "OpenAI's realtime audio model for live voice agents and conversations.",
+      "free_tier": "No free tier",
+      "input": 32.0,
+      "output": 64.0,
+      "cache": 0.4,
+      "chips": [
+        "text: $4 in / $24 out"
+      ],
+      "extras": [
+        "Audio input $32/audio output $64 per 1M tokens",
+        "Text input $4/text output $24 per 1M",
+        "Cached input $0.40",
+        "Prices from developers.openai.com"
+      ],
+      "faq": [
+        [
+          "How much does GPT Realtime 2.1 cost?",
+          "Audio: $32 input / $64 output per 1M tokens. Text: $4/$24 per 1M."
+        ]
+      ]
+    },
+    {
+      "slug": "openai-gpt-realtime-mini-pricing",
+      "name": "GPT Realtime 2.1 Mini",
+      "api_id": "gpt-realtime-2.1-mini",
+      "vendor": "OpenAI",
+      "released": "2026",
+      "summary": "Cost-efficient realtime audio model for high-volume voice applications.",
+      "free_tier": "No free tier",
+      "input": 10.0,
+      "output": 20.0,
+      "cache": 0.3,
+      "chips": [
+        "text: $0.60 in / $2.40 out"
+      ],
+      "extras": [
+        "Audio $10/$20 per 1M tokens",
+        "Text $0.60/$2.40 per 1M",
+        "Cached $0.30",
+        "3x cheaper than Realtime 2.1"
+      ],
+      "faq": [
+        [
+          "How much does GPT Realtime Mini cost?",
+          "Audio: $10/$20 per 1M. Text: $0.60/$2.40 per 1M."
+        ]
+      ]
+    },
+    {
+      "slug": "openai-gpt-image-2.5-pricing",
+      "name": "GPT Image 2.5",
+      "api_id": "gpt-image-2.5-sunburst",
+      "vendor": "OpenAI",
+      "released": "2026",
+      "summary": "OpenAI's image generation model (Sunburst/Flare variants share pricing).",
+      "free_tier": "No free tier",
+      "input": 8.0,
+      "output": 30.0,
+      "cache": 2.0,
+      "chips": [
+        "text input: $5/1M"
+      ],
+      "extras": [
+        "Image input $8/image output $30 per 1M tokens",
+        "Text input $5 per 1M",
+        "Sunburst and Flare variants identical pricing",
+        "Prices from developers.openai.com"
+      ],
+      "faq": [
+        [
+          "How much does GPT Image 2.5 cost?",
+          "Image output $30 per 1M tokens. Image input $8. Text input $5."
+        ]
+      ]
+    },
+    {
+      "slug": "openai-chat-latest-pricing",
+      "name": "Chat Latest",
+      "api_id": "chat-latest",
+      "vendor": "OpenAI",
+      "released": "2026",
+      "summary": "OpenAI's smart-routing model — automatically selects the best model for your prompt.",
+      "free_tier": "No free tier",
+      "input": 5.0,
+      "output": 30.0,
+      "cache": 0.5,
+      "extras": [
+        "Automatically routes to the best model",
+        "$5/$30 per 1M tokens",
+        "Cached input $0.50",
+        "Prices from developers.openai.com"
+      ],
+      "faq": [
+        [
+          "How much does Chat Latest cost?",
+          "$5 per 1M input and $30 per 1M output."
         ],
         [
-          "Is Nano Banana 2.1 different from Gemini 3.1 Flash Image?",
-          "Nano Banana 2.1 is an update to Nano Banana 2 (which was Gemini 3.1 Flash Image), with improved visual quality and character consistency."
+          "What is Chat Latest?",
+          "A convenience model that automatically routes to the best OpenAI model for your task."
+        ]
+      ]
+    },
+    {
+      "slug": "openai-gpt-live-1-pricing",
+      "name": "GPT Live 1",
+      "api_id": "gpt-live-1",
+      "vendor": "OpenAI",
+      "released": "2026",
+      "summary": "OpenAI's lightweight live/realtime model for streaming applications. Priced per minute, not per token.",
+      "free_tier": "No free tier",
+      "input": null,
+      "output": null,
+      "extras": [
+        "$0.05 per minute for realtime use",
+        "Designed for lightweight streaming",
+        "Prices from developers.openai.com"
+      ],
+      "faq": [
+        [
+          "How much does GPT Live 1 cost?",
+          "$0.05 per minute for realtime use. Not priced per token."
+        ]
+      ],
+      "cache": null,
+      "chips": [
+        "$0.05 per minute"
+      ]
+    },
+    {
+      "slug": "claude-fable-5-pricing",
+      "name": "Claude Fable 5",
+      "api_id": "claude-fable-5",
+      "vendor": "Anthropic",
+      "released": "2026",
+      "summary": "Base version of the Fable family, same $10/$50 rates as Fable 5.1.",
+      "free_tier": "No free tier",
+      "input": 10,
+      "output": 50,
+      "cache": 12.5,
+      "extras": [
+        "Same pricing as Fable 5.1",
+        "Cache write $12.50",
+        "Batch API: 50% discount"
+      ],
+      "faq": [
+        [
+          "How much does Claude Fable 5 cost?",
+          "$10 per 1M input and $50 per 1M output — same as Fable 5.1."
+        ]
+      ]
+    },
+    {
+      "slug": "claude-mythos-5-pricing",
+      "name": "Claude Mythos 5",
+      "api_id": "claude-mythos-5",
+      "vendor": "Anthropic",
+      "released": "2026",
+      "summary": "Base version of the Mythos family, same $10/$50 rates as Mythos 5.1.",
+      "free_tier": "No free tier",
+      "input": 10,
+      "output": 50,
+      "cache": 12.5,
+      "extras": [
+        "Same pricing as Mythos 5.1",
+        "Cache write $12.50",
+        "Batch API: 50% discount"
+      ],
+      "faq": [
+        [
+          "How much does Claude Mythos 5 cost?",
+          "$10 per 1M input and $50 per 1M output — same as Mythos 5.1."
+        ]
+      ]
+    },
+    {
+      "slug": "google-veo-3.1-pricing",
+      "name": "Veo 3.1",
+      "api_id": "veo-3.1",
+      "vendor": "Google",
+      "released": "2026",
+      "summary": "Google's video generation model — high-quality video creation at $0.40 per second.",
+      "free_tier": "No free tier",
+      "input": null,
+      "output": null,
+      "chips": [
+        "$0.40 per second of video"
+      ],
+      "extras": [
+        "Priced per second of generated video, not per token",
+        "$0.40/second standard rate",
+        "Leading alternative to discontinued Sora 2",
+        "Prices from Google AI pricing page"
+      ],
+      "faq": [
+        [
+          "How much does Veo 3.1 cost?",
+          "$0.40 per second of generated video."
+        ],
+        [
+          "Is Veo 3.1 a good Sora 2 alternative?",
+          "Yes — Veo 3.1 is the leading video generation alternative after OpenAI discontinued Sora 2 in September 2026."
+        ],
+        [
+          "How is Veo priced?",
+          "Per second of video output, not per token like text models."
+        ]
+      ]
+    },
+    {
+      "slug": "claude-opus-4.1-pricing",
+      "name": "Claude Opus 4.1",
+      "api_id": "claude-opus-4.1",
+      "vendor": "Anthropic",
+      "released": "2025",
+      "summary": "Legacy Opus generation — the last Opus at original $15/$75 pricing before the big repricing.",
+      "free_tier": "No free tier",
+      "input": 15,
+      "output": 75,
+      "cache": 18.75,
+      "extras": [
+        "Original Opus pricing (not repriced)",
+        "Cache write $18.75",
+        "Batch API: 50% discount"
+      ],
+      "faq": [
+        [
+          "How much does Claude Opus 4.1 cost?",
+          "$15 per 1M input and $75 per 1M output — original pricing, not repriced."
+        ],
+        [
+          "Is Opus 4.1 cheaper than Opus 5?",
+          "No — Opus 4.1 is $15/$75 while Opus 5 is $5/$25. The newer model is 67% cheaper."
+        ]
+      ]
+    },
+    {
+      "slug": "gemini-flash-image-pricing",
+      "name": "Gemini Flash Image",
+      "api_id": "gemini-3.1-flash-image",
+      "vendor": "Google",
+      "released": "2026",
+      "summary": "Google's image generation model (Nano Banana 2). Priced per image token, not per text token.",
+      "free_tier": "No free tier",
+      "input": null,
+      "output": null,
+      "chips": [
+        "image output: $60/1M tokens",
+        "0.5K img = $0.045",
+        "1K img = $0.067"
+      ],
+      "extras": [
+        "Image output: $60 per 1M tokens",
+        "0.5K (512px) image = $0.045",
+        "1K (1024x1024) image = $0.067",
+        "2K image = $0.101, 4K image = $0.151",
+        "Also known as Nano Banana 2",
+        "No separate text token pricing on official page"
+      ],
+      "faq": [
+        [
+          "How much does Flash Image cost?",
+          "Image output $60 per 1M tokens. A 1K (1024x1024) image costs $0.067."
+        ],
+        [
+          "Is Flash Image the same as Nano Banana?",
+          "Nano Banana was the codename. Flash Image = Nano Banana 2, Nano Banana 2.1 is the update."
+        ]
+      ],
+      "cache": null
+    },
+    {
+      "slug": "gemini-pro-image-pricing",
+      "name": "Gemini 3 Pro Image",
+      "api_id": "gemini-3-pro-image",
+      "vendor": "Google",
+      "released": "2026",
+      "summary": "Pro-tier image generation model at $120 per 1M image output tokens.",
+      "free_tier": "No free tier",
+      "input": null,
+      "output": null,
+      "chips": [
+        "image output: $120/1M tokens"
+      ],
+      "extras": [
+        "Image output $120 per 1M tokens",
+        "Premium tier for professional image generation",
+        "Prices from Google AI pricing page"
+      ],
+      "faq": [
+        [
+          "How much does Gemini Pro Image cost?",
+          "$120 per 1M image output tokens."
+        ]
+      ]
+    },
+    {
+      "slug": "openai-gpt-transcribe-pricing",
+      "name": "GPT Transcribe",
+      "api_id": "gpt-transcribe",
+      "vendor": "OpenAI",
+      "released": "2026",
+      "summary": "OpenAI's speech-to-text model. Priced per minute, not per token.",
+      "free_tier": "No free tier",
+      "input": null,
+      "output": null,
+      "chips": [
+        "$0.0045 per minute"
+      ],
+      "extras": [
+        "$0.0045 per minute",
+        "No per-token pricing on official page",
+        "Prices from developers.openai.com"
+      ],
+      "faq": [
+        [
+          "How much does GPT Transcribe cost?",
+          "$0.0045 per minute. Not priced per token on the official page."
+        ]
+      ],
+      "cache": null
+    },
+    {
+      "slug": "openai-gpt-4o-transcribe-pricing",
+      "name": "GPT-4o Transcribe",
+      "api_id": "gpt-4o-transcribe",
+      "vendor": "OpenAI",
+      "released": "2025",
+      "summary": "Legacy 4o-based transcription model at $2.50/$10.00 per 1M tokens.",
+      "free_tier": "No free tier",
+      "input": 2.5,
+      "output": 10.0,
+      "chips": [
+        "$0.006 per minute"
+      ],
+      "extras": [
+        "$2.50/$10.00 per 1M tokens",
+        "2x more expensive than GPT Transcribe",
+        "Prices from developers.openai.com"
+      ],
+      "faq": [
+        [
+          "How much does 4o Transcribe cost?",
+          "$2.50/$10.00 per 1M tokens."
+        ]
+      ]
+    },
+    {
+      "slug": "openai-whisper-transcribe-pricing",
+      "name": "GPT Realtime Whisper",
+      "api_id": "gpt-realtime-whisper",
+      "vendor": "OpenAI",
+      "released": "2026",
+      "summary": "Realtime live transcription at $0.017 per minute.",
+      "free_tier": "No free tier",
+      "input": null,
+      "output": null,
+      "chips": [
+        "$0.017 per minute"
+      ],
+      "extras": [
+        "Live transcription (realtime)",
+        "$0.017 per minute",
+        "Prices from developers.openai.com"
+      ],
+      "faq": [
+        [
+          "How much does Realtime Whisper cost?",
+          "$0.017 per minute for live transcription."
+        ]
+      ]
+    },
+    {
+      "slug": "openai-gpt-4o-mini-transcribe-pricing",
+      "name": "GPT-4o Mini Transcribe",
+      "api_id": "gpt-4o-mini-transcribe",
+      "vendor": "OpenAI",
+      "released": "2025",
+      "summary": "Cost-efficient transcription model at $1.25/$5.00 per 1M tokens.",
+      "free_tier": "No free tier",
+      "input": 1.25,
+      "output": 5.0,
+      "chips": [
+        "$0.003 per minute"
+      ],
+      "extras": [
+        "$1.25/$5.00 per 1M tokens",
+        "Effective: $0.003 per minute",
+        "Half the cost of 4o Transcribe",
+        "Prices from developers.openai.com"
+      ],
+      "faq": [
+        [
+          "How much does 4o Mini Transcribe cost?",
+          "$1.25/$5.00 per 1M tokens, approximately $0.003 per minute."
         ]
       ]
     }
