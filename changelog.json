@@ -1,6 +1,14 @@
 {
  "events": [
   {
+   "date": "2026-10-27",
+   "type": "add",
+   "vendor": "OpenAI",
+   "title": "GPT-6.1 Terra added ($1/$5)",
+   "detail": "New mid-tier model between Sol and Luna. Cached $0.05. User discovered before monitoring alert.",
+   "source": "https://developers.openai.com/api/docs/pricing"
+  },
+  {
    "date": "2026-10-26",
    "type": "fix",
    "title": "Haiku 5.5 long-context prices corrected (input/output were reversed)",

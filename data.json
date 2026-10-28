@@ -42,7 +42,76 @@
         ]
       ],
       "batch_input": 0.375,
-      "batch_output": 1.875
+      "batch_output": 1.875,
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 0.75,
+          "output": 3.75,
+          "primary": true,
+          "valid_from": "2026-09",
+          "source": {
+            "url": "https://ai.google.dev/gemini-api/docs/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          },
+          "cache_read": 0.075,
+          "cache_write_short": null,
+          "cache_write_long": null
+        },
+        {
+          "modality": "text",
+          "tier": "batch",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 0.375,
+          "output": 1.875,
+          "cache_read": null,
+          "cache_write_short": null,
+          "cache_write_long": null,
+          "cache_write_duration": null,
+          "primary": false,
+          "valid_from": "2026-09",
+          "source": {
+            "url": "https://ai.google.dev/gemini-api/docs/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          }
+        },
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 1.5,
+          "output": 7.5,
+          "cache_read": 0.15,
+          "cache_write_short": null,
+          "cache_write_long": null,
+          "primary": false,
+          "valid_from": "2027-01-01",
+          "source": {
+            "url": "https://ai.google.dev/gemini-api/docs/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": "Upcoming price change"
+          }
+        }
+      ]
     },
     {
       "slug": "gemini-3.7-flash-pricing",
@@ -78,7 +147,76 @@
       ],
       "batch_input": 0.375,
       "batch_output": 1.875,
-      "deprecated": "2026-10"
+      "deprecated": "2026-10",
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 0.75,
+          "output": 3.75,
+          "primary": true,
+          "valid_from": "2026-08",
+          "source": {
+            "url": "https://ai.google.dev/gemini-api/docs/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          },
+          "cache_read": 0.075,
+          "cache_write_short": null,
+          "cache_write_long": null
+        },
+        {
+          "modality": "text",
+          "tier": "batch",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 0.375,
+          "output": 1.875,
+          "cache_read": null,
+          "cache_write_short": null,
+          "cache_write_long": null,
+          "cache_write_duration": null,
+          "primary": false,
+          "valid_from": "2026-08",
+          "source": {
+            "url": "https://ai.google.dev/gemini-api/docs/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          }
+        },
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 1.5,
+          "output": 7.5,
+          "cache_read": 0.15,
+          "cache_write_short": null,
+          "cache_write_long": null,
+          "primary": false,
+          "valid_from": "2027-01-01",
+          "source": {
+            "url": "https://ai.google.dev/gemini-api/docs/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": "Upcoming price change"
+          }
+        }
+      ]
     },
     {
       "slug": "gemini-3.6-flash-pricing",
@@ -112,7 +250,76 @@
         ]
       ],
       "batch_input": 0.375,
-      "batch_output": 1.875
+      "batch_output": 1.875,
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 0.75,
+          "output": 3.75,
+          "primary": true,
+          "valid_from": "2026-07",
+          "source": {
+            "url": "https://ai.google.dev/gemini-api/docs/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          },
+          "cache_read": 0.075,
+          "cache_write_short": null,
+          "cache_write_long": null
+        },
+        {
+          "modality": "text",
+          "tier": "batch",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 0.375,
+          "output": 1.875,
+          "cache_read": null,
+          "cache_write_short": null,
+          "cache_write_long": null,
+          "cache_write_duration": null,
+          "primary": false,
+          "valid_from": "2026-07",
+          "source": {
+            "url": "https://ai.google.dev/gemini-api/docs/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          }
+        },
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 1.5,
+          "output": 7.5,
+          "cache_read": 0.15,
+          "cache_write_short": null,
+          "cache_write_long": null,
+          "primary": false,
+          "valid_from": "2027-01-01",
+          "source": {
+            "url": "https://ai.google.dev/gemini-api/docs/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": "Upcoming price change"
+          }
+        }
+      ]
     },
     {
       "slug": "claude-opus-5-pricing",
@@ -141,7 +348,55 @@
         ]
       ],
       "batch_input": 2.5,
-      "batch_output": 12.5
+      "batch_output": 12.5,
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 5,
+          "output": 25,
+          "primary": true,
+          "valid_from": "2026",
+          "source": {
+            "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          },
+          "cache_read": 0.5,
+          "cache_write_short": 6.25,
+          "cache_write_long": 10.0,
+          "cache_write_duration": "5min/1hr"
+        },
+        {
+          "modality": "text",
+          "tier": "batch",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 2.5,
+          "output": 12.5,
+          "cache_read": null,
+          "cache_write_short": null,
+          "cache_write_long": null,
+          "cache_write_duration": null,
+          "primary": false,
+          "valid_from": "2026",
+          "source": {
+            "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          }
+        }
+      ]
     },
     {
       "slug": "claude-sonnet-5-pricing",
@@ -170,7 +425,55 @@
         ]
       ],
       "batch_input": 1.0,
-      "batch_output": 5.0
+      "batch_output": 5.0,
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 2,
+          "output": 10,
+          "primary": true,
+          "valid_from": "2026",
+          "source": {
+            "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          },
+          "cache_read": 0.2,
+          "cache_write_short": 2.5,
+          "cache_write_long": 4.0,
+          "cache_write_duration": "5min/1hr"
+        },
+        {
+          "modality": "text",
+          "tier": "batch",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 1.0,
+          "output": 5.0,
+          "cache_read": null,
+          "cache_write_short": null,
+          "cache_write_long": null,
+          "cache_write_duration": null,
+          "primary": false,
+          "valid_from": "2026",
+          "source": {
+            "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          }
+        }
+      ]
     },
     {
       "slug": "claude-opus-4-pricing",
@@ -194,7 +497,55 @@
         ]
       ],
       "batch_input": 7.5,
-      "batch_output": 37.5
+      "batch_output": 37.5,
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 15,
+          "output": 75,
+          "primary": true,
+          "valid_from": "2025",
+          "source": {
+            "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          },
+          "cache_read": 1.5,
+          "cache_write_short": 18.75,
+          "cache_write_long": 30.0,
+          "cache_write_duration": "5min/1hr"
+        },
+        {
+          "modality": "text",
+          "tier": "batch",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 7.5,
+          "output": 37.5,
+          "cache_read": null,
+          "cache_write_short": null,
+          "cache_write_long": null,
+          "cache_write_duration": null,
+          "primary": false,
+          "valid_from": "2025",
+          "source": {
+            "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          }
+        }
+      ]
     },
     {
       "slug": "claude-sonnet-4-pricing",
@@ -217,7 +568,55 @@
         ]
       ],
       "batch_input": 1.5,
-      "batch_output": 7.5
+      "batch_output": 7.5,
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 3,
+          "output": 15,
+          "primary": true,
+          "valid_from": "2025",
+          "source": {
+            "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          },
+          "cache_read": 0.3,
+          "cache_write_short": 3.75,
+          "cache_write_long": 6.0,
+          "cache_write_duration": "5min/1hr"
+        },
+        {
+          "modality": "text",
+          "tier": "batch",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 1.5,
+          "output": 7.5,
+          "cache_read": null,
+          "cache_write_short": null,
+          "cache_write_long": null,
+          "cache_write_duration": null,
+          "primary": false,
+          "valid_from": "2025",
+          "source": {
+            "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          }
+        }
+      ]
     },
     {
       "slug": "claude-opus-5.5-pricing",
@@ -246,7 +645,55 @@
       ],
       "cache": 5,
       "batch_input": 2.0,
-      "batch_output": 10.0
+      "batch_output": 10.0,
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 4,
+          "output": 20,
+          "primary": true,
+          "valid_from": "2026",
+          "source": {
+            "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          },
+          "cache_read": 0.4,
+          "cache_write_short": 5.0,
+          "cache_write_long": 8.0,
+          "cache_write_duration": "5min/1hr"
+        },
+        {
+          "modality": "text",
+          "tier": "batch",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 2.0,
+          "output": 10.0,
+          "cache_read": null,
+          "cache_write_short": null,
+          "cache_write_long": null,
+          "cache_write_duration": null,
+          "primary": false,
+          "valid_from": "2026",
+          "source": {
+            "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          }
+        }
+      ]
     },
     {
       "slug": "claude-fable-5.1-pricing",
@@ -275,7 +722,55 @@
       ],
       "cache": 12.5,
       "batch_input": 5.0,
-      "batch_output": 25.0
+      "batch_output": 25.0,
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 10,
+          "output": 50,
+          "primary": true,
+          "valid_from": "2026",
+          "source": {
+            "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          },
+          "cache_read": 1.0,
+          "cache_write_short": 12.5,
+          "cache_write_long": 20.0,
+          "cache_write_duration": "5min/1hr"
+        },
+        {
+          "modality": "text",
+          "tier": "batch",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 5.0,
+          "output": 25.0,
+          "cache_read": null,
+          "cache_write_short": null,
+          "cache_write_long": null,
+          "cache_write_duration": null,
+          "primary": false,
+          "valid_from": "2026",
+          "source": {
+            "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          }
+        }
+      ]
     },
     {
       "slug": "claude-mythos-5.1-pricing",
@@ -304,7 +799,55 @@
       ],
       "cache": 12.5,
       "batch_input": 5.0,
-      "batch_output": 25.0
+      "batch_output": 25.0,
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 10,
+          "output": 50,
+          "primary": true,
+          "valid_from": "2026",
+          "source": {
+            "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          },
+          "cache_read": 1.0,
+          "cache_write_short": 12.5,
+          "cache_write_long": 20.0,
+          "cache_write_duration": "5min/1hr"
+        },
+        {
+          "modality": "text",
+          "tier": "batch",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 5.0,
+          "output": 25.0,
+          "cache_read": null,
+          "cache_write_short": null,
+          "cache_write_long": null,
+          "cache_write_duration": null,
+          "primary": false,
+          "valid_from": "2026",
+          "source": {
+            "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          }
+        }
+      ]
     },
     {
       "slug": "claude-haiku-4.5-pricing",
@@ -333,7 +876,55 @@
       ],
       "cache": 1.25,
       "batch_input": 0.5,
-      "batch_output": 2.5
+      "batch_output": 2.5,
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 1,
+          "output": 5,
+          "primary": true,
+          "valid_from": "2025",
+          "source": {
+            "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          },
+          "cache_read": 0.1,
+          "cache_write_short": 1.25,
+          "cache_write_long": 2.0,
+          "cache_write_duration": "5min/1hr"
+        },
+        {
+          "modality": "text",
+          "tier": "batch",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 0.5,
+          "output": 2.5,
+          "cache_read": null,
+          "cache_write_short": null,
+          "cache_write_long": null,
+          "cache_write_duration": null,
+          "primary": false,
+          "valid_from": "2025",
+          "source": {
+            "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          }
+        }
+      ]
     },
     {
       "slug": "claude-opus-4.5-pricing",
@@ -362,7 +953,55 @@
       ],
       "cache": 6.25,
       "batch_input": 2.5,
-      "batch_output": 12.5
+      "batch_output": 12.5,
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 5,
+          "output": 25,
+          "primary": true,
+          "valid_from": "2025",
+          "source": {
+            "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          },
+          "cache_read": 0.5,
+          "cache_write_short": 6.25,
+          "cache_write_long": 10.0,
+          "cache_write_duration": "5min/1hr"
+        },
+        {
+          "modality": "text",
+          "tier": "batch",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 2.5,
+          "output": 12.5,
+          "cache_read": null,
+          "cache_write_short": null,
+          "cache_write_long": null,
+          "cache_write_duration": null,
+          "primary": false,
+          "valid_from": "2025",
+          "source": {
+            "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          }
+        }
+      ]
     },
     {
       "slug": "gemini-3.1-pro-pricing",
@@ -400,6 +1039,30 @@
       ],
       "chips": [
         ">200k tier: $4 in / $18 out"
+      ],
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 2.0,
+          "output": 12.0,
+          "primary": true,
+          "valid_from": "2026-08",
+          "source": {
+            "url": "https://ai.google.dev/gemini-api/docs/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          },
+          "cache_read": 0.2,
+          "cache_write_short": null,
+          "cache_write_long": null
+        }
       ]
     },
     {
@@ -425,7 +1088,54 @@
         ]
       ],
       "batch_input": 0.15,
-      "batch_output": 1.25
+      "batch_output": 1.25,
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 0.3,
+          "output": 2.5,
+          "primary": true,
+          "valid_from": "2026-06",
+          "source": {
+            "url": "https://ai.google.dev/gemini-api/docs/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          },
+          "cache_read": 0.03,
+          "cache_write_short": null,
+          "cache_write_long": null
+        },
+        {
+          "modality": "text",
+          "tier": "batch",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 0.15,
+          "output": 1.25,
+          "cache_read": null,
+          "cache_write_short": null,
+          "cache_write_long": null,
+          "cache_write_duration": null,
+          "primary": false,
+          "valid_from": "2026-06",
+          "source": {
+            "url": "https://ai.google.dev/gemini-api/docs/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          }
+        }
+      ]
     },
     {
       "slug": "gemini-3.1-flash-lite-pricing",
@@ -450,7 +1160,54 @@
         ]
       ],
       "batch_input": 0.125,
-      "batch_output": 0.75
+      "batch_output": 0.75,
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 0.25,
+          "output": 1.5,
+          "primary": true,
+          "valid_from": "2026-05",
+          "source": {
+            "url": "https://ai.google.dev/gemini-api/docs/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          },
+          "cache_read": 0.025,
+          "cache_write_short": null,
+          "cache_write_long": null
+        },
+        {
+          "modality": "text",
+          "tier": "batch",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 0.125,
+          "output": 0.75,
+          "cache_read": null,
+          "cache_write_short": null,
+          "cache_write_long": null,
+          "cache_write_duration": null,
+          "primary": false,
+          "valid_from": "2026-05",
+          "source": {
+            "url": "https://ai.google.dev/gemini-api/docs/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          }
+        }
+      ]
     },
     {
       "slug": "gemini-3.8-flash-tts-pricing",
@@ -480,6 +1237,52 @@
       ],
       "chips": [
         "audio out: $9/1M"
+      ],
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 0.5,
+          "output": 9.0,
+          "primary": true,
+          "valid_from": "2026-09",
+          "source": {
+            "url": "https://ai.google.dev/gemini-api/docs/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          },
+          "cache_read": 0.125,
+          "cache_write_short": null,
+          "cache_write_long": null
+        },
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 1.0,
+          "output": 18.0,
+          "cache_read": 0.25,
+          "cache_write_short": null,
+          "cache_write_long": null,
+          "primary": false,
+          "valid_from": "2027-01-01",
+          "source": {
+            "url": "https://ai.google.dev/gemini-api/docs/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": "Upcoming price change"
+          }
+        }
       ]
     },
     {
@@ -516,6 +1319,30 @@
       ],
       "chips": [
         "video out: $17.50/1M"
+      ],
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 1.5,
+          "output": 9.0,
+          "primary": true,
+          "valid_from": "2026-09",
+          "source": {
+            "url": "https://ai.google.dev/gemini-api/docs/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          },
+          "cache_read": null,
+          "cache_write_short": null,
+          "cache_write_long": null
+        }
       ]
     },
     {
@@ -557,6 +1384,30 @@
       ],
       "chips": [
         "audio: $3 in / $12 out (main use)"
+      ],
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 0.75,
+          "output": 4.5,
+          "primary": true,
+          "valid_from": "2026-09",
+          "source": {
+            "url": "https://ai.google.dev/gemini-api/docs/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          },
+          "cache_read": null,
+          "cache_write_short": null,
+          "cache_write_long": null
+        }
       ]
     },
     {
@@ -581,7 +1432,55 @@
       ],
       "cache": 6.25,
       "batch_input": 2.5,
-      "batch_output": 12.5
+      "batch_output": 12.5,
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 5,
+          "output": 25,
+          "primary": true,
+          "valid_from": "2025",
+          "source": {
+            "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          },
+          "cache_read": 0.5,
+          "cache_write_short": 6.25,
+          "cache_write_long": 10.0,
+          "cache_write_duration": "5min/1hr"
+        },
+        {
+          "modality": "text",
+          "tier": "batch",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 2.5,
+          "output": 12.5,
+          "cache_read": null,
+          "cache_write_short": null,
+          "cache_write_long": null,
+          "cache_write_duration": null,
+          "primary": false,
+          "valid_from": "2025",
+          "source": {
+            "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          }
+        }
+      ]
     },
     {
       "slug": "claude-opus-4.7-pricing",
@@ -605,7 +1504,55 @@
       ],
       "cache": 6.25,
       "batch_input": 2.5,
-      "batch_output": 12.5
+      "batch_output": 12.5,
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 5,
+          "output": 25,
+          "primary": true,
+          "valid_from": "2025",
+          "source": {
+            "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          },
+          "cache_read": 0.5,
+          "cache_write_short": 6.25,
+          "cache_write_long": 10.0,
+          "cache_write_duration": "5min/1hr"
+        },
+        {
+          "modality": "text",
+          "tier": "batch",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 2.5,
+          "output": 12.5,
+          "cache_read": null,
+          "cache_write_short": null,
+          "cache_write_long": null,
+          "cache_write_duration": null,
+          "primary": false,
+          "valid_from": "2025",
+          "source": {
+            "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          }
+        }
+      ]
     },
     {
       "slug": "claude-opus-4.6-pricing",
@@ -629,7 +1576,55 @@
       ],
       "cache": 6.25,
       "batch_input": 2.5,
-      "batch_output": 12.5
+      "batch_output": 12.5,
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 5,
+          "output": 25,
+          "primary": true,
+          "valid_from": "2025",
+          "source": {
+            "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          },
+          "cache_read": 0.5,
+          "cache_write_short": 6.25,
+          "cache_write_long": 10.0,
+          "cache_write_duration": "5min/1hr"
+        },
+        {
+          "modality": "text",
+          "tier": "batch",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 2.5,
+          "output": 12.5,
+          "cache_read": null,
+          "cache_write_short": null,
+          "cache_write_long": null,
+          "cache_write_duration": null,
+          "primary": false,
+          "valid_from": "2025",
+          "source": {
+            "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          }
+        }
+      ]
     },
     {
       "slug": "claude-sonnet-4.6-pricing",
@@ -653,7 +1648,55 @@
       ],
       "cache": 3.75,
       "batch_input": 1.5,
-      "batch_output": 7.5
+      "batch_output": 7.5,
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 3,
+          "output": 15,
+          "primary": true,
+          "valid_from": "2025",
+          "source": {
+            "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          },
+          "cache_read": 0.3,
+          "cache_write_short": 3.75,
+          "cache_write_long": 6.0,
+          "cache_write_duration": "5min/1hr"
+        },
+        {
+          "modality": "text",
+          "tier": "batch",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 1.5,
+          "output": 7.5,
+          "cache_read": null,
+          "cache_write_short": null,
+          "cache_write_long": null,
+          "cache_write_duration": null,
+          "primary": false,
+          "valid_from": "2025",
+          "source": {
+            "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          }
+        }
+      ]
     },
     {
       "slug": "claude-sonnet-4.5-pricing",
@@ -677,7 +1720,55 @@
       ],
       "cache": 3.75,
       "batch_input": 1.5,
-      "batch_output": 7.5
+      "batch_output": 7.5,
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 3,
+          "output": 15,
+          "primary": true,
+          "valid_from": "2025",
+          "source": {
+            "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          },
+          "cache_read": 0.3,
+          "cache_write_short": 3.75,
+          "cache_write_long": 6.0,
+          "cache_write_duration": "5min/1hr"
+        },
+        {
+          "modality": "text",
+          "tier": "batch",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 1.5,
+          "output": 7.5,
+          "cache_read": null,
+          "cache_write_short": null,
+          "cache_write_long": null,
+          "cache_write_duration": null,
+          "primary": false,
+          "valid_from": "2025",
+          "source": {
+            "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          }
+        }
+      ]
     },
     {
       "slug": "deepseek-flash-pricing",
@@ -714,6 +1805,53 @@
           "Does DeepSeek Flash have a cache discount?",
           "Yes — cache-hit input is $0.006/1M at peak (98% cheaper than cache miss)."
         ]
+      ],
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 0.3,
+          "output": 1.2,
+          "primary": true,
+          "valid_from": "2026",
+          "source": {
+            "url": "https://api-docs.deepseek.com/quick_start/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          },
+          "cache_read": 0.006,
+          "cache_write_short": null,
+          "cache_write_long": null
+        },
+        {
+          "modality": "text",
+          "tier": "off_peak",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 0.15,
+          "output": 0.6,
+          "cache_read": null,
+          "cache_write_short": null,
+          "cache_write_long": null,
+          "cache_write_duration": null,
+          "primary": false,
+          "valid_from": "2026",
+          "source": {
+            "url": "https://api-docs.deepseek.com/quick_start/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": "Off-peak 50% discount"
+          }
+        }
       ]
     },
     {
@@ -747,6 +1885,53 @@
           "DeepSeek V4 Pro vs Flash — price difference?",
           "V4 Pro is ~4.4x Flash on input and 3.3x on output at peak rates."
         ]
+      ],
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 1.32,
+          "output": 3.96,
+          "primary": true,
+          "valid_from": "2026",
+          "source": {
+            "url": "https://api-docs.deepseek.com/quick_start/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          },
+          "cache_read": 0.044,
+          "cache_write_short": null,
+          "cache_write_long": null
+        },
+        {
+          "modality": "text",
+          "tier": "off_peak",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 0.66,
+          "output": 1.98,
+          "cache_read": null,
+          "cache_write_short": null,
+          "cache_write_long": null,
+          "cache_write_duration": null,
+          "primary": false,
+          "valid_from": "2026",
+          "source": {
+            "url": "https://api-docs.deepseek.com/quick_start/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": "Off-peak 50% discount"
+          }
+        }
       ]
     },
     {
@@ -775,6 +1960,53 @@
       ],
       "chips": [
         "long ctx: $20 in / $75 out"
+      ],
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 10.0,
+          "output": 50.0,
+          "primary": true,
+          "valid_from": "2026",
+          "source": {
+            "url": "https://developers.openai.com/api/docs/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          },
+          "cache_read": 1.0,
+          "cache_write_short": null,
+          "cache_write_long": null
+        },
+        {
+          "modality": "text",
+          "tier": "batch",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 5.0,
+          "output": 25.0,
+          "cache_read": null,
+          "cache_write_short": null,
+          "cache_write_long": null,
+          "cache_write_duration": null,
+          "primary": false,
+          "valid_from": "2026",
+          "source": {
+            "url": "https://developers.openai.com/api/docs/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          }
+        }
       ]
     },
     {
@@ -803,6 +2035,53 @@
       ],
       "chips": [
         "long ctx: $4 in / $15 out"
+      ],
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 2.0,
+          "output": 10.0,
+          "primary": true,
+          "valid_from": "2026",
+          "source": {
+            "url": "https://developers.openai.com/api/docs/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          },
+          "cache_read": 0.2,
+          "cache_write_short": null,
+          "cache_write_long": null
+        },
+        {
+          "modality": "text",
+          "tier": "batch",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 1.0,
+          "output": 5.0,
+          "cache_read": null,
+          "cache_write_short": null,
+          "cache_write_long": null,
+          "cache_write_duration": null,
+          "primary": false,
+          "valid_from": "2026",
+          "source": {
+            "url": "https://developers.openai.com/api/docs/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          }
+        }
       ]
     },
     {
@@ -831,6 +2110,53 @@
       ],
       "chips": [
         "long ctx: $0.20 in / $0.75 out"
+      ],
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 0.1,
+          "output": 0.5,
+          "primary": true,
+          "valid_from": "2026",
+          "source": {
+            "url": "https://developers.openai.com/api/docs/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          },
+          "cache_read": 0.01,
+          "cache_write_short": null,
+          "cache_write_long": null
+        },
+        {
+          "modality": "text",
+          "tier": "batch",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 0.05,
+          "output": 0.25,
+          "cache_read": null,
+          "cache_write_short": null,
+          "cache_write_long": null,
+          "cache_write_duration": null,
+          "primary": false,
+          "valid_from": "2026",
+          "source": {
+            "url": "https://developers.openai.com/api/docs/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          }
+        }
       ]
     },
     {
@@ -864,6 +2190,53 @@
       ],
       "chips": [
         "promo ends Nov 21, 2026"
+      ],
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 4.0,
+          "output": 20.0,
+          "primary": true,
+          "valid_from": "2026",
+          "source": {
+            "url": "https://developers.openai.com/api/docs/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          },
+          "cache_read": 0.4,
+          "cache_write_short": null,
+          "cache_write_long": null
+        },
+        {
+          "modality": "text",
+          "tier": "batch",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 2.0,
+          "output": 10.0,
+          "cache_read": null,
+          "cache_write_short": null,
+          "cache_write_long": null,
+          "cache_write_duration": null,
+          "primary": false,
+          "valid_from": "2026",
+          "source": {
+            "url": "https://developers.openai.com/api/docs/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          }
+        }
       ]
     },
     {
@@ -889,6 +2262,53 @@
           "How much does GPT-5.6 Cyber cost?",
           "$12.5 per 1M input and $75 per 1M output (standard tier). Batch is half; priority is 2x."
         ]
+      ],
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 12.5,
+          "output": 75.0,
+          "primary": true,
+          "valid_from": "2026",
+          "source": {
+            "url": "https://developers.openai.com/api/docs/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          },
+          "cache_read": 1.25,
+          "cache_write_short": null,
+          "cache_write_long": null
+        },
+        {
+          "modality": "text",
+          "tier": "batch",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 6.25,
+          "output": 37.5,
+          "cache_read": null,
+          "cache_write_short": null,
+          "cache_write_long": null,
+          "cache_write_duration": null,
+          "primary": false,
+          "valid_from": "2026",
+          "source": {
+            "url": "https://developers.openai.com/api/docs/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          }
+        }
       ]
     },
     {
@@ -914,6 +2334,53 @@
           "How much does GPT-5.3 Codex cost?",
           "$1.75 per 1M input and $14 per 1M output (standard tier). Batch is half; priority is 2x."
         ]
+      ],
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 1.75,
+          "output": 14.0,
+          "primary": true,
+          "valid_from": "2026",
+          "source": {
+            "url": "https://developers.openai.com/api/docs/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          },
+          "cache_read": 0.175,
+          "cache_write_short": null,
+          "cache_write_long": null
+        },
+        {
+          "modality": "text",
+          "tier": "batch",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 0.875,
+          "output": 7.0,
+          "cache_read": null,
+          "cache_write_short": null,
+          "cache_write_long": null,
+          "cache_write_duration": null,
+          "primary": false,
+          "valid_from": "2026",
+          "source": {
+            "url": "https://developers.openai.com/api/docs/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          }
+        }
       ]
     },
     {
@@ -939,6 +2406,53 @@
           "How much does GPT Rosalind Research cost?",
           "$5 per 1M input and $25 per 1M output (standard tier). Batch is half; priority is 2x."
         ]
+      ],
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 5.0,
+          "output": 25.0,
+          "primary": true,
+          "valid_from": "2026",
+          "source": {
+            "url": "https://developers.openai.com/api/docs/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          },
+          "cache_read": 0.5,
+          "cache_write_short": null,
+          "cache_write_long": null
+        },
+        {
+          "modality": "text",
+          "tier": "batch",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 2.5,
+          "output": 12.5,
+          "cache_read": null,
+          "cache_write_short": null,
+          "cache_write_long": null,
+          "cache_write_duration": null,
+          "primary": false,
+          "valid_from": "2026",
+          "source": {
+            "url": "https://developers.openai.com/api/docs/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          }
+        }
       ]
     },
     {
@@ -970,6 +2484,30 @@
           "Does Grok charge more for long context?",
           "Yes — long-context prompts bill at 2x the standard rate."
         ]
+      ],
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 2.0,
+          "output": 6.0,
+          "primary": true,
+          "valid_from": "2026",
+          "source": {
+            "url": "https://docs.x.ai/docs/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          },
+          "cache_read": 0.5,
+          "cache_write_short": null,
+          "cache_write_long": null
+        }
       ]
     },
     {
@@ -1001,6 +2539,30 @@
           "Does Grok charge more for long context?",
           "Yes — long-context prompts bill at 2x the standard rate."
         ]
+      ],
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 2.0,
+          "output": 6.0,
+          "primary": true,
+          "valid_from": "2026",
+          "source": {
+            "url": "https://docs.x.ai/docs/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          },
+          "cache_read": 0.5,
+          "cache_write_short": null,
+          "cache_write_long": null
+        }
       ]
     },
     {
@@ -1032,6 +2594,30 @@
           "Does Grok charge more for long context?",
           "Yes — long-context prompts bill at 2x the standard rate."
         ]
+      ],
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 2.0,
+          "output": 6.0,
+          "primary": true,
+          "valid_from": "2026",
+          "source": {
+            "url": "https://docs.x.ai/docs/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          },
+          "cache_read": 0.3,
+          "cache_write_short": null,
+          "cache_write_long": null
+        }
       ]
     },
     {
@@ -1063,6 +2649,30 @@
           "Does Grok charge more for long context?",
           "Yes — long-context prompts bill at 2x the standard rate."
         ]
+      ],
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 1.25,
+          "output": 2.5,
+          "primary": true,
+          "valid_from": "2026",
+          "source": {
+            "url": "https://docs.x.ai/docs/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          },
+          "cache_read": 0.2,
+          "cache_write_short": null,
+          "cache_write_long": null
+        }
       ]
     },
     {
@@ -1094,6 +2704,30 @@
           "Does Grok charge more for long context?",
           "Yes — long-context prompts bill at 2x the standard rate."
         ]
+      ],
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 1.0,
+          "output": 2.0,
+          "primary": true,
+          "valid_from": "2026",
+          "source": {
+            "url": "https://docs.x.ai/docs/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          },
+          "cache_read": 0.2,
+          "cache_write_short": null,
+          "cache_write_long": null
+        }
       ]
     },
     {
@@ -1126,7 +2760,31 @@
       "chips": [
         "hosted via SiliconFlow"
       ],
-      "hosted": true
+      "hosted": true,
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 2.0,
+          "output": 6.0,
+          "primary": true,
+          "valid_from": "2026",
+          "source": {
+            "url": "https://www.siliconflow.com/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          },
+          "cache_read": 0.25,
+          "cache_write_short": null,
+          "cache_write_long": null
+        }
+      ]
     },
     {
       "slug": "qwen3.6-27b-pricing",
@@ -1157,7 +2815,31 @@
       "chips": [
         "hosted via SiliconFlow"
       ],
-      "hosted": true
+      "hosted": true,
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 0.3,
+          "output": 3.2,
+          "primary": true,
+          "valid_from": "2026",
+          "source": {
+            "url": "https://www.siliconflow.com/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          },
+          "cache_read": null,
+          "cache_write_short": null,
+          "cache_write_long": null
+        }
+      ]
     },
     {
       "slug": "qwen3.5-122b-pricing",
@@ -1188,7 +2870,31 @@
       "chips": [
         "hosted via SiliconFlow"
       ],
-      "hosted": true
+      "hosted": true,
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 0.26,
+          "output": 2.08,
+          "primary": true,
+          "valid_from": "2026",
+          "source": {
+            "url": "https://www.siliconflow.com/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          },
+          "cache_read": null,
+          "cache_write_short": null,
+          "cache_write_long": null
+        }
+      ]
     },
     {
       "slug": "qwen3.6-35b-pricing",
@@ -1220,7 +2926,31 @@
       "chips": [
         "hosted via SiliconFlow"
       ],
-      "hosted": true
+      "hosted": true,
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 0.24,
+          "output": 1.8,
+          "primary": true,
+          "valid_from": "2026",
+          "source": {
+            "url": "https://www.siliconflow.com/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          },
+          "cache_read": 0.15,
+          "cache_write_short": null,
+          "cache_write_long": null
+        }
+      ]
     },
     {
       "slug": "claude-sonnet-5.5-pricing",
@@ -1246,6 +2976,30 @@
           "Is Sonnet 5.5 more expensive than 5?",
           "No — same rates, newer model."
         ]
+      ],
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 2,
+          "output": 10,
+          "primary": true,
+          "valid_from": "2026-10",
+          "source": {
+            "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          },
+          "cache_read": null,
+          "cache_write_short": null,
+          "cache_write_long": null
+        }
       ]
     },
     {
@@ -1278,6 +3032,53 @@
           "Is 6.1 Sol cheaper than 6.0 Sol?",
           "No — same price, newer generation."
         ]
+      ],
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 2.0,
+          "output": 10.0,
+          "primary": true,
+          "valid_from": "2026-10",
+          "source": {
+            "url": "https://developers.openai.com/api/docs/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          },
+          "cache_read": 0.1,
+          "cache_write_short": null,
+          "cache_write_long": null
+        },
+        {
+          "modality": "text",
+          "tier": "batch",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 1.0,
+          "output": 5.0,
+          "cache_read": null,
+          "cache_write_short": null,
+          "cache_write_long": null,
+          "cache_write_duration": null,
+          "primary": false,
+          "valid_from": "2026-10",
+          "source": {
+            "url": "https://developers.openai.com/api/docs/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          }
+        }
       ]
     },
     {
@@ -1315,7 +3116,75 @@
         ]
       ],
       "batch_input": 0.05,
-      "batch_output": 0.25
+      "batch_output": 0.25,
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 0.1,
+          "output": 0.5,
+          "cache_read": 0.01,
+          "cache_write_short": 0.125,
+          "cache_write_long": 0.2,
+          "cache_write_duration": "5min/1hr",
+          "primary": true,
+          "valid_from": "2026-10-16",
+          "source": {
+            "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": "Haiku 5.5 ≤100K: $0.10/$0.50; cache write 5min=$0.125 (1.25×0.10)"
+          }
+        },
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "long_ctx",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 0.5,
+          "output": 2.5,
+          "cache_read": 0.05,
+          "cache_write_short": 0.625,
+          "cache_write_long": 1.0,
+          "cache_write_duration": "5min/1hr",
+          "primary": false,
+          "valid_from": "2026-10-16",
+          "source": {
+            "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": "Haiku 5.5 >100K: $0.50/$2.50; cache write=$0.625 (1.25×0.50✓)"
+          }
+        },
+        {
+          "modality": "text",
+          "tier": "batch",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 0.05,
+          "output": 0.25,
+          "primary": false,
+          "valid_from": "2026-10-16",
+          "source": {
+            "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": "Haiku 5.5 batch: $0.05/$0.25 (50% of $0.10/$0.50)"
+          }
+        }
+      ],
+      "pricing_model_note": "Tiered pricing: base (≤100K) and long_ctx (>100K)"
     },
     {
       "slug": "gemini-4-argon-pricing",
@@ -1354,6 +3223,52 @@
       "price_change_date": "2026-12-01",
       "chips": [
         "doubles Dec 1: $4 in / $20 out"
+      ],
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 2.0,
+          "output": 10.0,
+          "primary": true,
+          "valid_from": "2026-10",
+          "source": {
+            "url": "https://ai.google.dev/gemini-api/docs/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          },
+          "cache_read": 0.1,
+          "cache_write_short": null,
+          "cache_write_long": null
+        },
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 4.0,
+          "output": 20.0,
+          "cache_read": 0.2,
+          "cache_write_short": null,
+          "cache_write_long": null,
+          "primary": false,
+          "valid_from": "2026-12-01",
+          "source": {
+            "url": "https://ai.google.dev/gemini-api/docs/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": "Upcoming price change"
+          }
+        }
       ]
     },
     {
@@ -1377,6 +3292,30 @@
           "How much does GPT Rosalind Discovery cost?",
           "$5 per 1M input and $25 per 1M output."
         ]
+      ],
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 5.0,
+          "output": 25.0,
+          "primary": true,
+          "valid_from": "2026-10",
+          "source": {
+            "url": "https://developers.openai.com/api/docs/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          },
+          "cache_read": 0.5,
+          "cache_write_short": null,
+          "cache_write_long": null
+        }
       ]
     },
     {
@@ -1415,7 +3354,51 @@
           "1K, 2K, and 4K image output resolutions."
         ]
       ],
-      "cache": null
+      "cache": null,
+      "prices": [
+        {
+          "modality": "image",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "output_only",
+          "input": null,
+          "output": 30.0,
+          "cache_read": null,
+          "cache_write_short": null,
+          "cache_write_long": null,
+          "primary": true,
+          "valid_from": "2026-10-23",
+          "source": {
+            "url": "https://ai.google.dev/gemini-api/docs/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": "Image output $30 per 1,000,000 tokens"
+          }
+        },
+        {
+          "modality": "image",
+          "tier": "batch",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "output_only",
+          "input": null,
+          "output": 15.0,
+          "primary": false,
+          "valid_from": "2026-10-23",
+          "source": {
+            "url": "https://ai.google.dev/gemini-api/docs/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          }
+        }
+      ],
+      "pricing_model_note": "Image token pricing; no text token pricing published by vendor"
     },
     {
       "slug": "openai-gpt-realtime-2.1-pricing",
@@ -1442,7 +3425,79 @@
           "How much does GPT Realtime 2.1 cost?",
           "Audio: $32 input / $64 output per 1M tokens. Text: $4/$24 per 1M."
         ]
-      ]
+      ],
+      "prices": [
+        {
+          "modality": "audio",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 32.0,
+          "output": 64.0,
+          "cache_read": 0.4,
+          "cache_write_short": null,
+          "cache_write_long": null,
+          "cache_write_duration": null,
+          "primary": true,
+          "valid_from": "2026-10-01",
+          "source": {
+            "url": "https://developers.openai.com/api/docs/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": "gpt-realtime-2.1 Audio $32.00 $64.00 $0.40"
+          }
+        },
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 4.0,
+          "output": 24.0,
+          "cache_read": 0.4,
+          "cache_write_short": null,
+          "cache_write_long": null,
+          "cache_write_duration": null,
+          "primary": false,
+          "valid_from": "2026-10-01",
+          "source": {
+            "url": "https://developers.openai.com/api/docs/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": "gpt-realtime-2.1 Text $4.00 $24.00 $0.40"
+          }
+        },
+        {
+          "modality": "audio",
+          "tier": "batch",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 16.0,
+          "output": 32.0,
+          "cache_read": null,
+          "cache_write_short": null,
+          "cache_write_long": null,
+          "cache_write_duration": null,
+          "primary": false,
+          "valid_from": "2026-10-01",
+          "source": {
+            "url": "https://developers.openai.com/api/docs/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          }
+        }
+      ],
+      "pricing_model_note": "Multi-modal: audio and text priced separately"
     },
     {
       "slug": "openai-gpt-realtime-mini-pricing",
@@ -1469,7 +3524,50 @@
           "How much does GPT Realtime Mini cost?",
           "Audio: $10/$20 per 1M. Text: $0.60/$2.40 per 1M."
         ]
-      ]
+      ],
+      "prices": [
+        {
+          "modality": "audio",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 10.0,
+          "output": 20.0,
+          "cache_read": 0.3,
+          "primary": true,
+          "valid_from": "2026-10-01",
+          "source": {
+            "url": "https://developers.openai.com/api/docs/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": "gpt-realtime-2.1-mini Audio $10.00 $20.00 $0.30 | Text $0.60 $2.40 $0.06"
+          }
+        },
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 0.6,
+          "output": 2.4,
+          "cache_read": 0.06,
+          "primary": false,
+          "valid_from": "2026-10-01",
+          "source": {
+            "url": "https://developers.openai.com/api/docs/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          }
+        }
+      ],
+      "pricing_model_note": "Multi-modal: audio and text priced separately"
     },
     {
       "slug": "openai-gpt-image-2.5-pricing",
@@ -1496,6 +3594,30 @@
           "How much does GPT Image 2.5 cost?",
           "Image output $30 per 1M tokens. Image input $8. Text input $5."
         ]
+      ],
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 8.0,
+          "output": 30.0,
+          "primary": true,
+          "valid_from": "2026",
+          "source": {
+            "url": "https://developers.openai.com/api/docs/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          },
+          "cache_read": 2.0,
+          "cache_write_short": null,
+          "cache_write_long": null
+        }
       ]
     },
     {
@@ -1524,6 +3646,30 @@
           "What is Chat Latest?",
           "A convenience model that automatically routes to the best OpenAI model for your task."
         ]
+      ],
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 5.0,
+          "output": 30.0,
+          "primary": true,
+          "valid_from": "2026",
+          "source": {
+            "url": "https://developers.openai.com/api/docs/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          },
+          "cache_read": 0.5,
+          "cache_write_short": null,
+          "cache_write_long": null
+        }
       ]
     },
     {
@@ -1550,7 +3696,30 @@
       "cache": null,
       "chips": [
         "$0.05 per minute"
-      ]
+      ],
+      "prices": [
+        {
+          "modality": "multimodal",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_minute",
+          "currency": "USD",
+          "direction": "flat_rate",
+          "input": null,
+          "output": null,
+          "price": 0.05,
+          "primary": true,
+          "valid_from": "2026-10-26",
+          "source": {
+            "url": "https://developers.openai.com/api/docs/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": "gpt-live-1 $0.05 per minute"
+          }
+        }
+      ],
+      "pricing_model_note": "Per-minute realtime; not token-based"
     },
     {
       "slug": "claude-fable-5-pricing",
@@ -1573,6 +3742,31 @@
           "How much does Claude Fable 5 cost?",
           "$10 per 1M input and $50 per 1M output — same as Fable 5.1."
         ]
+      ],
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 10,
+          "output": 50,
+          "primary": true,
+          "valid_from": "2026",
+          "source": {
+            "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          },
+          "cache_read": 1.0,
+          "cache_write_short": 12.5,
+          "cache_write_long": 20.0,
+          "cache_write_duration": "5min/1hr"
+        }
       ]
     },
     {
@@ -1596,6 +3790,31 @@
           "How much does Claude Mythos 5 cost?",
           "$10 per 1M input and $50 per 1M output — same as Mythos 5.1."
         ]
+      ],
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 10,
+          "output": 50,
+          "primary": true,
+          "valid_from": "2026",
+          "source": {
+            "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          },
+          "cache_read": 1.0,
+          "cache_write_short": 12.5,
+          "cache_write_long": 20.0,
+          "cache_write_duration": "5min/1hr"
+        }
       ]
     },
     {
@@ -1630,7 +3849,30 @@
           "How is Veo priced?",
           "Per second of video output, not per token like text models."
         ]
-      ]
+      ],
+      "prices": [
+        {
+          "modality": "video",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_second",
+          "currency": "USD",
+          "direction": "flat_rate",
+          "input": null,
+          "output": null,
+          "price": 0.4,
+          "primary": true,
+          "valid_from": "2026-10-16",
+          "source": {
+            "url": "https://ai.google.dev/gemini-api/docs/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": "$0.40 per second of video"
+          }
+        }
+      ],
+      "pricing_model_note": "Per-second video generation; not token-based"
     },
     {
       "slug": "claude-opus-4.1-pricing",
@@ -1657,6 +3899,31 @@
           "Is Opus 4.1 cheaper than Opus 5?",
           "No — Opus 4.1 is $15/$75 while Opus 5 is $5/$25. The newer model is 67% cheaper."
         ]
+      ],
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 15,
+          "output": 75,
+          "primary": true,
+          "valid_from": "2025",
+          "source": {
+            "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          },
+          "cache_read": 1.5,
+          "cache_write_short": 18.75,
+          "cache_write_long": 30.0,
+          "cache_write_duration": "5min/1hr"
+        }
       ]
     },
     {
@@ -1692,7 +3959,29 @@
           "Nano Banana was the codename. Flash Image = Nano Banana 2, Nano Banana 2.1 is the update."
         ]
       ],
-      "cache": null
+      "cache": null,
+      "prices": [
+        {
+          "modality": "image",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "output_only",
+          "input": null,
+          "output": 60.0,
+          "primary": true,
+          "valid_from": "2026-10-26",
+          "source": {
+            "url": "https://ai.google.dev/gemini-api/docs/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": "Image output $60 per 1,000,000 tokens"
+          }
+        }
+      ],
+      "pricing_model_note": "Image token pricing; also known as Nano Banana 2"
     },
     {
       "slug": "gemini-pro-image-pricing",
@@ -1717,7 +4006,29 @@
           "How much does Gemini Pro Image cost?",
           "$120 per 1M image output tokens."
         ]
-      ]
+      ],
+      "prices": [
+        {
+          "modality": "image",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "output_only",
+          "input": null,
+          "output": 120.0,
+          "primary": true,
+          "valid_from": "2026-10-26",
+          "source": {
+            "url": "https://ai.google.dev/gemini-api/docs/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": "Image output $120 per 1,000,000 tokens"
+          }
+        }
+      ],
+      "pricing_model_note": "Premium image generation"
     },
     {
       "slug": "openai-gpt-transcribe-pricing",
@@ -1743,7 +4054,30 @@
           "$0.0045 per minute. Not priced per token on the official page."
         ]
       ],
-      "cache": null
+      "cache": null,
+      "prices": [
+        {
+          "modality": "audio",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_minute",
+          "currency": "USD",
+          "direction": "flat_rate",
+          "input": null,
+          "output": null,
+          "price": 0.0045,
+          "primary": true,
+          "valid_from": "2026-10-26",
+          "source": {
+            "url": "https://developers.openai.com/api/docs/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": "gpt-transcribe $0.0045 / minute"
+          }
+        }
+      ],
+      "pricing_model_note": "Per-minute transcription; no per-token pricing published"
     },
     {
       "slug": "openai-gpt-4o-transcribe-pricing",
@@ -1768,6 +4102,30 @@
           "How much does 4o Transcribe cost?",
           "$2.50/$10.00 per 1M tokens."
         ]
+      ],
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 2.5,
+          "output": 10.0,
+          "primary": true,
+          "valid_from": "2025",
+          "source": {
+            "url": "https://developers.openai.com/api/docs/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          },
+          "cache_read": null,
+          "cache_write_short": null,
+          "cache_write_long": null
+        }
       ]
     },
     {
@@ -1793,7 +4151,34 @@
           "How much does Realtime Whisper cost?",
           "$0.017 per minute for live transcription."
         ]
-      ]
+      ],
+      "prices": [
+        {
+          "modality": "audio",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_minute",
+          "currency": "USD",
+          "direction": "flat_rate",
+          "input": null,
+          "output": null,
+          "price": 0.017,
+          "cache_read": null,
+          "cache_write_short": null,
+          "cache_write_long": null,
+          "cache_write_duration": null,
+          "primary": true,
+          "valid_from": "2026-10-26",
+          "source": {
+            "url": "https://developers.openai.com/api/docs/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": "gpt-realtime-whisper Live transcription $0.017 / minute"
+          }
+        }
+      ],
+      "pricing_model_note": "No per-token pricing published by vendor"
     },
     {
       "slug": "openai-gpt-4o-mini-transcribe-pricing",
@@ -1819,6 +4204,112 @@
           "How much does 4o Mini Transcribe cost?",
           "$1.25/$5.00 per 1M tokens, approximately $0.003 per minute."
         ]
+      ],
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 1.25,
+          "output": 5.0,
+          "primary": true,
+          "valid_from": "2025",
+          "source": {
+            "url": "https://developers.openai.com/api/docs/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          },
+          "cache_read": null,
+          "cache_write_short": null,
+          "cache_write_long": null
+        }
+      ]
+    },
+    {
+      "slug": "openai-gpt-6.1-terra-pricing",
+      "name": "GPT-6.1 Terra",
+      "api_id": "gpt-6.1-terra",
+      "vendor": "OpenAI",
+      "released": "2026-10",
+      "summary": "New mid-tier GPT-6.1 model at $1/$5 — positioned between Sol ($2/$10) and Luna ($0.10/$0.50).",
+      "free_tier": "No free tier",
+      "input": 1.0,
+      "output": 5.0,
+      "cache": 0.05,
+      "batch_input": 0.5,
+      "batch_output": 2.5,
+      "extras": [
+        "Cached input $0.05/1M",
+        "Batch API: 50% off ($0.50/$2.50)",
+        "Half the price of 6.1 Sol",
+        "10x more expensive than Luna",
+        "Prices from developers.openai.com"
+      ],
+      "faq": [
+        [
+          "How much does GPT-6.1 Terra cost?",
+          "$1.00 per 1M input and $5.00 per 1M output."
+        ],
+        [
+          "How does Terra compare to Sol and Luna?",
+          "Terra ($1/$5) sits between Sol ($2/$10) and Luna ($0.10/$0.50). Half of Sol, 10x Luna."
+        ],
+        [
+          "When was GPT-6.1 Terra released?",
+          "Appeared on OpenAI's pricing page in late October 2026."
+        ]
+      ],
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 1.0,
+          "output": 5.0,
+          "primary": true,
+          "valid_from": "2026-10",
+          "source": {
+            "url": "https://developers.openai.com/api/docs/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          },
+          "cache_read": 0.05,
+          "cache_write_short": null,
+          "cache_write_long": null
+        },
+        {
+          "modality": "text",
+          "tier": "batch",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 0.5,
+          "output": 2.5,
+          "cache_read": null,
+          "cache_write_short": null,
+          "cache_write_long": null,
+          "cache_write_duration": null,
+          "primary": false,
+          "valid_from": "2026-10",
+          "source": {
+            "url": "https://developers.openai.com/api/docs/pricing",
+            "verified_at": "2026-10-27",
+            "snippet": ""
+          }
+        }
       ]
     }
   ]
