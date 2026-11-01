@@ -1,6 +1,22 @@
 {
  "events": [
   {
+   "date": "2026-11-01",
+   "type": "add",
+   "vendor": "OpenAI",
+   "title": "GPT-6 Astra Law added ($10/$50) — OpenAI GPT-6 family complete",
+   "detail": "Legal specialization variant, same pricing as base Astra. Promotional through Dec 31. All 7 GPT-6 variants now tracked.",
+   "source": "https://developers.openai.com/api/docs/pricing"
+  },
+  {
+   "date": "2026-11-01",
+   "type": "add",
+   "vendor": "OpenAI",
+   "title": "GPT-6 Rosalind added ($15/$75) — new ultra-premium tier",
+   "detail": "Highest-priced GPT model, 50% above Astra. Cached $1.50. Detected by monitoring.",
+   "source": "https://developers.openai.com/api/docs/pricing"
+  },
+  {
    "date": "2026-10-27",
    "type": "add",
    "vendor": "OpenAI",

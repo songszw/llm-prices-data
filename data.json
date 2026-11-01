@@ -4311,6 +4311,147 @@
           }
         }
       ]
+    },
+    {
+      "slug": "openai-gpt-6-rosalind-pricing",
+      "name": "GPT-6 Rosalind",
+      "api_id": "gpt-6-rosalind",
+      "vendor": "OpenAI",
+      "released": "2026-10",
+      "summary": "OpenAI's ultra-premium GPT-6 model at $15/$75 — the highest-priced GPT model, above Astra ($10/$50).",
+      "free_tier": "No free tier",
+      "input": 15.0,
+      "output": 75.0,
+      "cache": 1.5,
+      "batch_input": 7.5,
+      "batch_output": 37.5,
+      "chips": [
+        "cache write 30m: $18.75",
+        "cache write 12h: $37.50"
+      ],
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 15.0,
+          "output": 75.0,
+          "cache_read": 1.5,
+          "cache_write_short": 18.75,
+          "cache_write_long": 37.5,
+          "cache_write_duration": "30m/12h",
+          "primary": true,
+          "valid_from": "2026-11-01",
+          "source": {
+            "url": "https://developers.openai.com/api/docs/pricing",
+            "verified_at": "2026-11-01",
+            "snippet": "gpt-6-rosalind $15.00 $75.00 $1.50 $18.75 $37.50"
+          }
+        },
+        {
+          "modality": "text",
+          "tier": "batch",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 7.5,
+          "output": 37.5,
+          "primary": false,
+          "valid_from": "2026-11-01",
+          "source": {
+            "url": "https://developers.openai.com/api/docs/pricing",
+            "verified_at": "2026-11-01",
+            "snippet": "batch 50%"
+          }
+        }
+      ],
+      "extras": [
+        "$15/$75 per 1M tokens — highest GPT tier",
+        "Cached input $1.50 (10% of input)",
+        "50% more than Astra ($10/$50)",
+        "Batch: $7.50/$37.50"
+      ],
+      "faq": [
+        [
+          "How much does GPT-6 Rosalind cost?",
+          "$15 per 1M input and $75 per 1M output — the most expensive GPT model."
+        ],
+        [
+          "Is GPT-6 Rosalind more expensive than Astra?",
+          "Yes — 50% more. Astra is $10/$50, Rosalind is $15/$75."
+        ],
+        [
+          "What is GPT-6 Rosalind for?",
+          "Ultra-premium tier, likely for specialized scientific/research workloads (extends the Rosalind line)."
+        ]
+      ]
+    },
+    {
+      "slug": "openai-gpt-6-astra-law-pricing",
+      "name": "GPT-6 Astra Law",
+      "api_id": "gpt-6-astra-law",
+      "vendor": "OpenAI",
+      "released": "2026-10",
+      "summary": "GPT-6 Astra specialized for legal workloads — same $10/$50 rates as base Astra, promotional through Dec 31, 2026.",
+      "free_tier": "No free tier",
+      "input": 10.0,
+      "output": 50.0,
+      "cache": 1.0,
+      "batch_input": 5.0,
+      "batch_output": 25.0,
+      "chips": [
+        "promo ends Dec 31, 2026"
+      ],
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 10.0,
+          "output": 50.0,
+          "cache_read": 1.0,
+          "primary": true,
+          "valid_from": "2026-11-01",
+          "source": {
+            "url": "https://developers.openai.com/api/docs/pricing",
+            "verified_at": "2026-11-01",
+            "snippet": "gpt-6-astra-law $10.00 $50.00 $1.00 | promotional through December 31, 2026"
+          }
+        }
+      ],
+      "extras": [
+        "Same rates as GPT-6 Astra ($10/$50)",
+        "Promotional pricing through Dec 31, 2026",
+        "Cached input $1.00",
+        "Legal specialization variant"
+      ],
+      "faq": [
+        [
+          "How much does GPT-6 Astra Law cost?",
+          "$10 per 1M input and $50 per 1M output — same as base Astra."
+        ],
+        [
+          "Is Astra Law different from Astra?",
+          "Same pricing, specialized for legal workloads."
+        ],
+        [
+          "When does Astra Law promotional pricing end?",
+          "At least through December 31, 2026."
+        ]
+      ]
     }
   ]
 }
