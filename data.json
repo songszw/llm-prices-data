@@ -4452,6 +4452,61 @@
           "At least through December 31, 2026."
         ]
       ]
+    },
+    {
+      "slug": "openai-gpt-6-cyber-pricing",
+      "name": "GPT-6 Cyber",
+      "api_id": "gpt-6-cyber",
+      "vendor": "OpenAI",
+      "released": "2026-11",
+      "summary": "GPT-6 generation of the Cyber line — upgraded from GPT-5.6-Cyber, at $20/$100 (60% more expensive than 5.6's $12.50/$75).",
+      "free_tier": "No free tier",
+      "input": 20.0,
+      "output": 100.0,
+      "cache": 2.0,
+      "batch_input": 10.0,
+      "batch_output": 50.0,
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 20.0,
+          "output": 100.0,
+          "cache_read": 2.0,
+          "cache_write_short": 25.0,
+          "cache_write_long": 50.0,
+          "cache_write_duration": "30m/12h",
+          "primary": true,
+          "valid_from": "2026-11-06",
+          "source": {
+            "url": "https://developers.openai.com/api/docs/pricing",
+            "verified_at": "2026-11-06",
+            "snippet": "gpt-6-cyber $20.00 $100.00 $2.00 $25.00 $50.00"
+          }
+        }
+      ],
+      "extras": [
+        "$20/$100 per 1M tokens",
+        "Upgraded from GPT-5.6-Cyber ($12.50/$75) — 60% increase",
+        "Cached $2.00",
+        "Batch: $10/$50"
+      ],
+      "faq": [
+        [
+          "How much does GPT-6 Cyber cost?",
+          "$20 per 1M input and $100 per 1M output."
+        ],
+        [
+          "Is GPT-6 Cyber more expensive than 5.6-Cyber?",
+          "Yes — $20/$100 vs $12.50/$75, a 60% increase."
+        ]
+      ]
     }
   ]
 }

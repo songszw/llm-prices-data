@@ -1,6 +1,14 @@
 {
  "events": [
   {
+   "date": "2026-11-06",
+   "type": "add",
+   "vendor": "OpenAI",
+   "title": "GPT-6 Cyber added ($20/$100) — 60% pricier than 5.6-Cyber",
+   "detail": "New GPT-6 generation Cyber model. Input up from $12.50 to $20, output from $75 to $100.",
+   "source": "https://developers.openai.com/api/docs/pricing"
+  },
+  {
    "date": "2026-11-01",
    "type": "add",
    "vendor": "OpenAI",
