@@ -1,6 +1,14 @@
 {
  "events": [
   {
+   "date": "2026-11-10",
+   "type": "add",
+   "vendor": "Anthropic",
+   "title": "Fable 5.2 & Mythos 5.2 added ($8/$40) — 20% price cut",
+   "detail": "Both upgraded from 5.1 with 20% reduction ($10/$50 → $8/$40). Anthropic's second price cut of 2026, while Google prepares to double prices.",
+   "source": "https://platform.claude.com/docs/en/about-claude/pricing"
+  },
+  {
    "date": "2026-11-06",
    "type": "add",
    "vendor": "OpenAI",

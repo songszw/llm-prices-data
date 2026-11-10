@@ -4507,6 +4507,106 @@
           "Yes — $20/$100 vs $12.50/$75, a 60% increase."
         ]
       ]
+    },
+    {
+      "slug": "claude-fable-5.2-pricing",
+      "name": "Claude Fable 5.2",
+      "api_id": "claude-fable-5.2",
+      "vendor": "Anthropic",
+      "released": "2026-11",
+      "summary": "Fable 5.2 — upgraded from 5.1 with 20% price cut ($10/$50 → $8/$40).",
+      "free_tier": "No free tier",
+      "input": 8,
+      "output": 40,
+      "chips": [
+        "20% cheaper than 5.1"
+      ],
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 8,
+          "output": 40,
+          "primary": true,
+          "valid_from": "2026-11-10",
+          "source": {
+            "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+            "verified_at": "2026-11-10",
+            "snippet": "claude-fable-5.2 $8/$40 MTok (down from 5.1's $10/$50)"
+          }
+        }
+      ],
+      "extras": [
+        "20% price cut from 5.1 ($10/$50 → $8/$40)",
+        "Anthropic's second price reduction in 2026",
+        "Batch API: 50% discount"
+      ],
+      "faq": [
+        [
+          "How much does Fable 5.2 cost?",
+          "$8 per 1M input and $40 per 1M output — 20% cheaper than 5.1."
+        ],
+        [
+          "Is Fable 5.2 cheaper than 5.1?",
+          "Yes — $8/$40 vs $10/$50, a 20% reduction."
+        ]
+      ]
+    },
+    {
+      "slug": "claude-mythos-5.2-pricing",
+      "name": "Claude Mythos 5.2",
+      "api_id": "claude-mythos-5.2",
+      "vendor": "Anthropic",
+      "released": "2026-11",
+      "summary": "Mythos 5.2 — upgraded from 5.1 with 20% price cut ($10/$50 → $8/$40).",
+      "free_tier": "No free tier",
+      "input": 8,
+      "output": 40,
+      "chips": [
+        "20% cheaper than 5.1"
+      ],
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 8,
+          "output": 40,
+          "primary": true,
+          "valid_from": "2026-11-10",
+          "source": {
+            "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+            "verified_at": "2026-11-10",
+            "snippet": "claude-mythos-5.2 $8/$40 MTok (down from 5.1's $10/$50)"
+          }
+        }
+      ],
+      "extras": [
+        "20% price cut from 5.1 ($10/$50 → $8/$40)",
+        "Anthropic's second price reduction in 2026",
+        "Batch API: 50% discount"
+      ],
+      "faq": [
+        [
+          "How much does Mythos 5.2 cost?",
+          "$8 per 1M input and $40 per 1M output — 20% cheaper than 5.1."
+        ],
+        [
+          "Is Mythos 5.2 cheaper than 5.1?",
+          "Yes — $8/$40 vs $10/$50, a 20% reduction."
+        ]
+      ]
     }
   ]
 }
