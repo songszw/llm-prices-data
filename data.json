@@ -2015,7 +2015,7 @@
       "api_id": "gpt-6-sol",
       "vendor": "OpenAI",
       "released": "2026",
-      "summary": "GPT-6 mid tier — the volume workhorse.",
+      "summary": "⚠ Removed from official page Nov 2026 — replaced by GPT-6.1 Sol (same $2/$10). GPT-6 mid tier — the volume workhorse.",
       "free_tier": "No free tier",
       "input": 2.0,
       "output": 10.0,
@@ -2082,7 +2082,8 @@
             "snippet": ""
           }
         }
-      ]
+      ],
+      "deprecated": "2026-11"
     },
     {
       "slug": "openai-gpt-6-luna-pricing",
@@ -2165,7 +2166,7 @@
       "api_id": "gpt-5.6-sol",
       "vendor": "OpenAI",
       "released": "2026",
-      "summary": "GPT-5.6 generation; alias gpt-daybreak-blue-latest points here.",
+      "summary": "⚠ Removed from official page Nov 2026 — model discontinued before promo expiry. GPT-5.6 generation; alias gpt-daybreak-blue-latest points here.",
       "free_tier": "No free tier",
       "input": 4.0,
       "output": 20.0,
@@ -2237,7 +2238,8 @@
             "snippet": ""
           }
         }
-      ]
+      ],
+      "deprecated": "2026-11"
     },
     {
       "slug": "openai-gpt-5.6-cyber-pricing",
@@ -2245,7 +2247,7 @@
       "api_id": "gpt-5.6-cyber",
       "vendor": "OpenAI",
       "released": "2026",
-      "summary": "GPT-5.6 premium tier; alias gpt-daybreak-red-latest points here.",
+      "summary": "⚠ Removed from official page Nov 2026 — replaced by GPT-6 Cyber ($20/$100). GPT-5.6 premium tier; alias gpt-daybreak-red-latest points here.",
       "free_tier": "No free tier",
       "input": 12.5,
       "output": 75.0,
@@ -2309,7 +2311,8 @@
             "snippet": ""
           }
         }
-      ]
+      ],
+      "deprecated": "2026-11"
     },
     {
       "slug": "openai-gpt-5.3-codex-pricing",
@@ -2317,7 +2320,7 @@
       "api_id": "gpt-5.3-codex",
       "vendor": "OpenAI",
       "released": "2026",
-      "summary": "Coding-specialized model.",
+      "summary": "⚠ Removed from official page Nov 2026. Coding-specialized model.",
       "free_tier": "No free tier",
       "input": 1.75,
       "output": 14.0,
@@ -2381,7 +2384,8 @@
             "snippet": ""
           }
         }
-      ]
+      ],
+      "deprecated": "2026-11"
     },
     {
       "slug": "openai-gpt-rosalind-pricing",
@@ -3277,7 +3281,7 @@
       "api_id": "gpt-rosalind-discovery",
       "vendor": "OpenAI",
       "released": "2026-10",
-      "summary": "Rosalind Discovery — life sciences research model, same $5/$25 rates as Rosalind Research.",
+      "summary": "⚠ Removed from official page Nov 2026 — merged into GPT-6 Rosalind. Rosalind Discovery — life sciences research model, same $5/$25 rates as Rosalind Research.",
       "free_tier": "No free tier",
       "input": 5.0,
       "output": 25.0,
@@ -3316,7 +3320,8 @@
           "cache_write_short": null,
           "cache_write_long": null
         }
-      ]
+      ],
+      "deprecated": "2026-11"
     },
     {
       "slug": "gemini-nano-banana-2.1-pricing",
@@ -3575,7 +3580,7 @@
       "api_id": "gpt-image-2.5-sunburst",
       "vendor": "OpenAI",
       "released": "2026",
-      "summary": "OpenAI's image generation model (Sunburst/Flare variants share pricing).",
+      "summary": "⚠ Removed from official page Nov 2026. OpenAI's image generation model (Sunburst/Flare variants share pricing).",
       "free_tier": "No free tier",
       "input": 8.0,
       "output": 30.0,
@@ -3618,7 +3623,8 @@
           "cache_write_short": null,
           "cache_write_long": null
         }
-      ]
+      ],
+      "deprecated": "2026-11"
     },
     {
       "slug": "openai-chat-latest-pricing",
@@ -4036,7 +4042,7 @@
       "api_id": "gpt-transcribe",
       "vendor": "OpenAI",
       "released": "2026",
-      "summary": "OpenAI's speech-to-text model. Priced per minute, not per token.",
+      "summary": "⚠ Removed from official page Nov 2026. OpenAI's speech-to-text model. Priced per minute, not per token.",
       "free_tier": "No free tier",
       "input": null,
       "output": null,
@@ -4077,7 +4083,8 @@
           }
         }
       ],
-      "pricing_model_note": "Per-minute transcription; no per-token pricing published"
+      "pricing_model_note": "Per-minute transcription; no per-token pricing published",
+      "deprecated": "2026-11"
     },
     {
       "slug": "openai-gpt-4o-transcribe-pricing",
@@ -4085,7 +4092,7 @@
       "api_id": "gpt-4o-transcribe",
       "vendor": "OpenAI",
       "released": "2025",
-      "summary": "Legacy 4o-based transcription model at $2.50/$10.00 per 1M tokens.",
+      "summary": "⚠ Removed from official page Nov 2026. Legacy 4o-based transcription model at $2.50/$10.00 per 1M tokens.",
       "free_tier": "No free tier",
       "input": 2.5,
       "output": 10.0,
@@ -4126,7 +4133,8 @@
           "cache_write_short": null,
           "cache_write_long": null
         }
-      ]
+      ],
+      "deprecated": "2026-11"
     },
     {
       "slug": "openai-whisper-transcribe-pricing",
@@ -4134,7 +4142,7 @@
       "api_id": "gpt-realtime-whisper",
       "vendor": "OpenAI",
       "released": "2026",
-      "summary": "Realtime live transcription at $0.017 per minute.",
+      "summary": "⚠ Removed from official page Nov 2026. Realtime live transcription at $0.017 per minute.",
       "free_tier": "No free tier",
       "input": null,
       "output": null,
@@ -4178,7 +4186,8 @@
           }
         }
       ],
-      "pricing_model_note": "No per-token pricing published by vendor"
+      "pricing_model_note": "No per-token pricing published by vendor",
+      "deprecated": "2026-11"
     },
     {
       "slug": "openai-gpt-4o-mini-transcribe-pricing",
@@ -4186,7 +4195,7 @@
       "api_id": "gpt-4o-mini-transcribe",
       "vendor": "OpenAI",
       "released": "2025",
-      "summary": "Cost-efficient transcription model at $1.25/$5.00 per 1M tokens.",
+      "summary": "⚠ Removed from official page Nov 2026. Cost-efficient transcription model at $1.25/$5.00 per 1M tokens.",
       "free_tier": "No free tier",
       "input": 1.25,
       "output": 5.0,
@@ -4228,7 +4237,8 @@
           "cache_write_short": null,
           "cache_write_long": null
         }
-      ]
+      ],
+      "deprecated": "2026-11"
     },
     {
       "slug": "openai-gpt-6.1-terra-pricing",
@@ -4539,13 +4549,18 @@
             "url": "https://platform.claude.com/docs/en/about-claude/pricing",
             "verified_at": "2026-11-10",
             "snippet": "claude-fable-5.2 $8/$40 MTok (down from 5.1's $10/$50)"
-          }
+          },
+          "cache_read": 0.2,
+          "cache_write_short": 10.0,
+          "cache_write_long": 16.0,
+          "cache_write_duration": "5min/1hr"
         }
       ],
       "extras": [
         "20% price cut from 5.1 ($10/$50 → $8/$40)",
         "Anthropic's second price reduction in 2026",
-        "Batch API: 50% discount"
+        "Batch API: 50% discount",
+        "Cache read $0.20, write 5min $10 / 1hr $16"
       ],
       "faq": [
         [
@@ -4556,7 +4571,8 @@
           "Is Fable 5.2 cheaper than 5.1?",
           "Yes — $8/$40 vs $10/$50, a 20% reduction."
         ]
-      ]
+      ],
+      "cache": 0.2
     },
     {
       "slug": "claude-mythos-5.2-pricing",
@@ -4589,13 +4605,18 @@
             "url": "https://platform.claude.com/docs/en/about-claude/pricing",
             "verified_at": "2026-11-10",
             "snippet": "claude-mythos-5.2 $8/$40 MTok (down from 5.1's $10/$50)"
-          }
+          },
+          "cache_read": 0.2,
+          "cache_write_short": 10.0,
+          "cache_write_long": 16.0,
+          "cache_write_duration": "5min/1hr"
         }
       ],
       "extras": [
         "20% price cut from 5.1 ($10/$50 → $8/$40)",
         "Anthropic's second price reduction in 2026",
-        "Batch API: 50% discount"
+        "Batch API: 50% discount",
+        "Cache read $0.20, write 5min $10 / 1hr $16"
       ],
       "faq": [
         [
@@ -4605,6 +4626,90 @@
         [
           "Is Mythos 5.2 cheaper than 5.1?",
           "Yes — $8/$40 vs $10/$50, a 20% reduction."
+        ]
+      ],
+      "cache": 0.2
+    },
+    {
+      "slug": "openai-gpt-image-2.6-pricing",
+      "name": "GPT Image 2.6",
+      "api_id": "gpt-image-2.6-sunburst",
+      "vendor": "OpenAI",
+      "released": "2026-11",
+      "summary": "OpenAI's image generation model (Sunburst/Flare variants share $8/$30 pricing). Replacement for Image 2.5.",
+      "free_tier": "No free tier",
+      "input": 8.0,
+      "output": 30.0,
+      "cache": 2.0,
+      "chips": [
+        "text input: $5/1M"
+      ],
+      "prices": [
+        {
+          "modality": "image",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "output_only",
+          "input": 8.0,
+          "output": 30.0,
+          "cache_read": 2.0,
+          "primary": true,
+          "valid_from": "2026-11-10",
+          "source": {
+            "url": "https://developers.openai.com/api/docs/pricing",
+            "verified_at": "2026-11-10",
+            "snippet": "gpt-image-2.6-sunburst Image $8.00 $30.00 $2.00"
+          }
+        }
+      ],
+      "extras": [
+        "Image output $30/1M tokens (same as 2.5)",
+        "Replaces Image 2.5 (removed Nov 2026)",
+        "Sunburst and Flare variants identical"
+      ],
+      "faq": [
+        [
+          "How much does GPT Image 2.6 cost?",
+          "Image output $30 per 1M tokens. Same pricing as Image 2.5."
+        ]
+      ]
+    },
+    {
+      "slug": "gemini-4-carbon-pricing",
+      "name": "Gemini 4 Carbon",
+      "api_id": "gemini-4-carbon",
+      "vendor": "Google",
+      "released": "2026-11",
+      "summary": "Google's most capable reasoning model — built for complex software engineering, deep mathematical and scientific problem solving. Positioned above or alongside Gemini 4 Argon.",
+      "free_tier": "Not available (no free tier)",
+      "input": null,
+      "output": null,
+      "chips": [
+        "pricing not yet published"
+      ],
+      "prices": [],
+      "extras": [
+        "New model detected Nov 2026",
+        "Pricing not yet visible on official page (SPA rendering)",
+        "Description: most capable reasoning model",
+        "Positioned alongside Argon in Gemini 4 family"
+      ],
+      "faq": [
+        [
+          "How much does Gemini 4 Carbon cost?",
+          "Pricing has not been published yet. We'll update this page the moment Google announces rates."
+        ],
+        [
+          "Is Carbon better than Argon?",
+          "Google describes Carbon as 'our most capable reasoning model' — suggesting it may be the new top tier, but pricing and benchmarks are pending."
+        ],
+        [
+          "When was Gemini 4 Carbon announced?",
+          "Detected on Google's pricing page in November 2026."
         ]
       ]
     }

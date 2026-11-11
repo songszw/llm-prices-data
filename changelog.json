@@ -1,6 +1,22 @@
 {
  "events": [
   {
+   "date": "2026-11-11",
+   "type": "add",
+   "vendor": "Google",
+   "title": "Gemini 4 Carbon detected (pricing TBA)",
+   "detail": "New flagship reasoning model detected on pricing page. Positioned as 'most capable reasoning model'. Pricing not yet rendered (SPA issue). Will update when available.",
+   "source": "https://aistudio.google.com/docs/pricing"
+  },
+  {
+   "date": "2026-11-10",
+   "type": "change",
+   "vendor": "OpenAI",
+   "title": "7 models removed from OpenAI pricing page — major cleanup",
+   "detail": "gpt-5.6-sol (promo ended early), 5.6-cyber, 6-sol, 5.3-codex, rosalind-research, rosalind-discovery, image-2.5 all removed. GPT-5.x generation fully retired.",
+   "source": "https://developers.openai.com/api/docs/pricing"
+  },
+  {
    "date": "2026-11-10",
    "type": "add",
    "vendor": "Anthropic",
