@@ -1,6 +1,14 @@
 {
  "events": [
   {
+   "date": "2026-11-13",
+   "type": "add",
+   "vendor": "Google",
+   "title": "Gemini 4 Hydrogen detected (pricing TBA) — 4th family member",
+   "detail": "Third elemental codename in Gemini 4 series (Argon→Carbon→Hydrogen). Google is building a full tiered family.",
+   "source": "https://aistudio.google.com/docs/pricing"
+  },
+  {
    "date": "2026-11-11",
    "type": "add",
    "vendor": "Google",

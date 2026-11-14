@@ -4712,6 +4712,36 @@
           "Detected on Google's pricing page in November 2026."
         ]
       ]
+    },
+    {
+      "slug": "gemini-4-hydrogen-pricing",
+      "name": "Gemini 4 Hydrogen",
+      "api_id": "gemini-4-hydrogen",
+      "vendor": "Google",
+      "released": "2026-11",
+      "summary": "Newest Gemini 4 family model (elemental codename series: Argon → Carbon → Hydrogen). Pricing not yet published.",
+      "free_tier": "Not available (no free tier)",
+      "input": null,
+      "output": null,
+      "chips": [
+        "pricing not yet published"
+      ],
+      "prices": [],
+      "extras": [
+        "Third Gemini 4 variant (after Argon and Carbon)",
+        "Elemental naming pattern suggests tiered family",
+        "Pricing not yet rendered on SPA page"
+      ],
+      "faq": [
+        [
+          "How much does Gemini 4 Hydrogen cost?",
+          "Pricing has not been published yet. We'll update when available."
+        ],
+        [
+          "What is the Gemini 4 family?",
+          "Google's next-gen models with elemental codenames: Argon, Carbon, Hydrogen — likely representing different capability/price tiers."
+        ]
+      ]
     }
   ]
 }
