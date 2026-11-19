@@ -4337,7 +4337,8 @@
       "batch_output": 37.5,
       "chips": [
         "cache write 30m: $18.75",
-        "cache write 12h: $37.50"
+        "cache write 12h: $37.50",
+        "promo ends Dec 31, 2026"
       ],
       "prices": [
         {
@@ -4402,7 +4403,8 @@
           "What is GPT-6 Rosalind for?",
           "Ultra-premium tier, likely for specialized scientific/research workloads (extends the Rosalind line)."
         ]
-      ]
+      ],
+      "price_change_date": "2026-12-31"
     },
     {
       "slug": "openai-gpt-6-astra-law-pricing",
@@ -4740,6 +4742,320 @@
         [
           "What is the Gemini 4 family?",
           "Google's next-gen models with elemental codenames: Argon, Carbon, Hydrogen — likely representing different capability/price tiers."
+        ]
+      ]
+    },
+    {
+      "slug": "openai-gpt-6.2-astra-pricing",
+      "name": "GPT-6.2 Astra",
+      "api_id": "gpt-6.2-astra",
+      "vendor": "OpenAI",
+      "released": "2026-11",
+      "summary": "GPT-6.2 flagship — 20% cheaper than GPT-6 Astra ($8/$40 vs $10/$50).",
+      "free_tier": "No free tier",
+      "input": 8.0,
+      "output": 40.0,
+      "cache": 0.4,
+      "batch_input": 4.0,
+      "batch_output": 20.0,
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 8.0,
+          "output": 40.0,
+          "cache_read": 0.4,
+          "primary": true,
+          "valid_from": "2026-11-18",
+          "source": {
+            "url": "https://developers.openai.com/api/docs/pricing",
+            "verified_at": "2026-11-18",
+            "snippet": "gpt-6.2-astra $8.0 $40.0 $0.4"
+          }
+        },
+        {
+          "modality": "text",
+          "tier": "background_2h",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 5.6,
+          "output": 28.0,
+          "primary": false,
+          "valid_from": "2026-11-18",
+          "source": {
+            "url": "https://developers.openai.com/api/docs/pricing",
+            "verified_at": "2026-11-18",
+            "snippet": "Background requests 30% below Standard for 2-hour completion"
+          }
+        },
+        {
+          "modality": "text",
+          "tier": "background_8h",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 4.8,
+          "output": 24.0,
+          "primary": false,
+          "valid_from": "2026-11-18",
+          "source": {
+            "url": "https://developers.openai.com/api/docs/pricing",
+            "verified_at": "2026-11-18",
+            "snippet": "Background requests 40% below Standard for 8-hour completion"
+          }
+        }
+      ],
+      "extras": [
+        "New generation at lower prices.",
+        "$8.0/$40.0 per 1M tokens",
+        "Batch: ${round(i/2,2)}/${round(o/2,2)}",
+        "Cached ${c}"
+      ],
+      "faq": [
+        [
+          "How much does GPT-6.2 Astra cost?",
+          "$8.0 per 1M input and $40.0 per 1M output."
+        ],
+        [
+          "Is GPT-6.2 Astra cheaper than GPT-6?",
+          "Yes — GPT-6.2 Astra ($8/$40) is 20% cheaper than GPT-6 Astra ($10/$50)."
+        ]
+      ],
+      "chips": [
+        "background 2h: -30%",
+        "background 8h: -40%"
+      ]
+    },
+    {
+      "slug": "openai-gpt-6.2-astra-law-pricing",
+      "name": "GPT-6.2 Astra Law",
+      "api_id": "gpt-6.2-astra-law",
+      "vendor": "OpenAI",
+      "released": "2026-11",
+      "summary": "GPT-6.2 Astra specialized for legal workloads — same $8/$40 rates.",
+      "free_tier": "No free tier",
+      "input": 8.0,
+      "output": 40.0,
+      "cache": 0.4,
+      "batch_input": 4.0,
+      "batch_output": 20.0,
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 8.0,
+          "output": 40.0,
+          "cache_read": 0.4,
+          "primary": true,
+          "valid_from": "2026-11-18",
+          "source": {
+            "url": "https://developers.openai.com/api/docs/pricing",
+            "verified_at": "2026-11-18",
+            "snippet": "gpt-6.2-astra-law $8.0 $40.0 $0.4"
+          }
+        },
+        {
+          "modality": "text",
+          "tier": "background_2h",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 5.6,
+          "output": 28.0,
+          "primary": false,
+          "valid_from": "2026-11-18",
+          "source": {
+            "url": "https://developers.openai.com/api/docs/pricing",
+            "verified_at": "2026-11-18",
+            "snippet": "Background requests 30% below Standard for 2-hour completion"
+          }
+        },
+        {
+          "modality": "text",
+          "tier": "background_8h",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 4.8,
+          "output": 24.0,
+          "primary": false,
+          "valid_from": "2026-11-18",
+          "source": {
+            "url": "https://developers.openai.com/api/docs/pricing",
+            "verified_at": "2026-11-18",
+            "snippet": "Background requests 40% below Standard for 8-hour completion"
+          }
+        }
+      ],
+      "extras": [
+        "Legal variant of GPT-6.2 Astra.",
+        "$8.0/$40.0 per 1M tokens",
+        "Batch: ${round(i/2,2)}/${round(o/2,2)}",
+        "Cached ${c}"
+      ],
+      "faq": [
+        [
+          "How much does GPT-6.2 Astra Law cost?",
+          "$8.0 per 1M input and $40.0 per 1M output."
+        ],
+        [
+          "Is GPT-6.2 Astra Law cheaper than GPT-6?",
+          "Same price as previous generation."
+        ]
+      ],
+      "chips": [
+        "background 2h: -30%",
+        "background 8h: -40%",
+        "promo ends Dec 31, 2026"
+      ],
+      "price_change_date": "2026-12-31"
+    },
+    {
+      "slug": "openai-gpt-6.2-sol-pricing",
+      "name": "GPT-6.2 Sol",
+      "api_id": "gpt-6.2-sol",
+      "vendor": "OpenAI",
+      "released": "2026-11",
+      "summary": "GPT-6.2 workhorse — same $2/$10 as 6.1 Sol.",
+      "free_tier": "No free tier",
+      "input": 2.0,
+      "output": 10.0,
+      "cache": 0.1,
+      "batch_input": 1.0,
+      "batch_output": 5.0,
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 2.0,
+          "output": 10.0,
+          "cache_read": 0.1,
+          "primary": true,
+          "valid_from": "2026-11-18",
+          "source": {
+            "url": "https://developers.openai.com/api/docs/pricing",
+            "verified_at": "2026-11-18",
+            "snippet": "gpt-6.2-sol $2.0 $10.0 $0.1"
+          }
+        },
+        {
+          "modality": "text",
+          "tier": "background_2h",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 1.4,
+          "output": 7.0,
+          "primary": false,
+          "valid_from": "2026-11-18",
+          "source": {
+            "url": "https://developers.openai.com/api/docs/pricing",
+            "verified_at": "2026-11-18",
+            "snippet": "Background requests 30% below Standard for 2-hour completion"
+          }
+        },
+        {
+          "modality": "text",
+          "tier": "background_8h",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 1.2,
+          "output": 6.0,
+          "primary": false,
+          "valid_from": "2026-11-18",
+          "source": {
+            "url": "https://developers.openai.com/api/docs/pricing",
+            "verified_at": "2026-11-18",
+            "snippet": "Background requests 40% below Standard for 8-hour completion"
+          }
+        }
+      ],
+      "extras": [
+        "Workhorse tier at unchanged pricing.",
+        "$2.0/$10.0 per 1M tokens",
+        "Batch: ${round(i/2,2)}/${round(o/2,2)}",
+        "Cached ${c}"
+      ],
+      "faq": [
+        [
+          "How much does GPT-6.2 Sol cost?",
+          "$2.0 per 1M input and $10.0 per 1M output."
+        ],
+        [
+          "Is GPT-6.2 Sol cheaper than GPT-6?",
+          "Same price as previous generation."
+        ]
+      ],
+      "chips": [
+        "background 2h: -30%",
+        "background 8h: -40%"
+      ]
+    },
+    {
+      "slug": "gemini-4-neon-pricing",
+      "name": "Gemini 4 Neon",
+      "api_id": "gemini-4-neon",
+      "vendor": "Google",
+      "released": "2026-11",
+      "summary": "Fourth member of the Gemini 4 elemental family (Argon/Carbon/Hydrogen/Neon). Pricing not yet published.",
+      "free_tier": "Not available (no free tier)",
+      "input": null,
+      "output": null,
+      "chips": [
+        "pricing not yet published"
+      ],
+      "prices": [],
+      "extras": [
+        "Fourth Gemini 4 variant (after Argon, Carbon, Hydrogen)",
+        "Elemental naming pattern continues",
+        "Pricing not yet rendered on SPA page"
+      ],
+      "faq": [
+        [
+          "How much does Gemini 4 Neon cost?",
+          "Pricing has not been published yet. We'll update when available."
+        ],
+        [
+          "What is the Gemini 4 family?",
+          "Google's next-gen models with elemental codenames: Argon, Carbon, Hydrogen, Neon — likely representing different capability/price tiers."
         ]
       ]
     }

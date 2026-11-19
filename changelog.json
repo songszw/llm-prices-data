@@ -1,6 +1,29 @@
 {
  "events": [
   {
+   "date": "2026-11-19",
+   "type": "add",
+   "vendor": "Google",
+   "title": "Gemini 4 Neon detected (pricing TBA) — 4th family member",
+   "detail": "Fourth elemental codename: Argon→Carbon→Hydrogen→Neon. Google is rapidly deploying the full Gemini 4 lineup.",
+   "source": "https://aistudio.google.com/docs/pricing"
+  },
+  {
+   "date": "2026-11-18",
+   "type": "update",
+   "title": "GPT-6.2 background tier added + OpenAI 12/31 promo events tracked",
+   "detail": "Background requests: -30% (2h window) / -40% (8h window) below Standard. Also tracking 12/31 promo expiry for GPT-6 Rosalind and 6.2 Astra Law.",
+   "source": "https://developers.openai.com/api/docs/pricing"
+  },
+  {
+   "date": "2026-11-18",
+   "type": "add",
+   "vendor": "OpenAI",
+   "title": "GPT-6.2 launched: Astra/Astra-Law/Sol (+3 models)",
+   "detail": "GPT-6.2 Astra at $8/$40 (20% cheaper than 6.0 Astra's $10/$50). Sol at $2/$10 (same as 6.1). Legal variant same rates. Price DROP on flagship tier.",
+   "source": "https://developers.openai.com/api/docs/pricing"
+  },
+  {
    "date": "2026-11-13",
    "type": "add",
    "vendor": "Google",
