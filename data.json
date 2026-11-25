@@ -4686,34 +4686,54 @@
       "api_id": "gemini-4-carbon",
       "vendor": "Google",
       "released": "2026-11",
-      "summary": "Google's most capable reasoning model — built for complex software engineering, deep mathematical and scientific problem solving. Positioned above or alongside Gemini 4 Argon.",
+      "summary": "Google's most capable reasoning model. $2/$10 promotional pricing doubles on Dec 1, 2026 — same day as Argon.",
       "free_tier": "Not available (no free tier)",
-      "input": null,
-      "output": null,
+      "input": 2.0,
+      "output": 10.0,
       "chips": [
-        "pricing not yet published"
+        "doubles Dec 1: $4 in / $20 out"
       ],
-      "prices": [],
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 2.0,
+          "output": 10.0,
+          "cache_read": 0.1,
+          "primary": true,
+          "valid_from": "2026-11-10",
+          "source": {
+            "url": "https://blog.google",
+            "verified_at": "2026-11-25",
+            "snippet": "Gemini 4 Carbon $2/$10"
+          }
+        }
+      ],
       "extras": [
-        "New model detected Nov 2026",
-        "Pricing not yet visible on official page (SPA rendering)",
-        "Description: most capable reasoning model",
-        "Positioned alongside Argon in Gemini 4 family"
+        "$2/$10 promotional through Nov 30",
+        "Doubles to $4/$20 on Dec 1 (same day as Argon)",
+        "Prices from Google official blog"
       ],
       "faq": [
         [
           "How much does Gemini 4 Carbon cost?",
-          "Pricing has not been published yet. We'll update this page the moment Google announces rates."
+          "$2/$10 through Nov 30. Doubles to $4/$20 on Dec 1."
         ],
         [
-          "Is Carbon better than Argon?",
-          "Google describes Carbon as 'our most capable reasoning model' — suggesting it may be the new top tier, but pricing and benchmarks are pending."
-        ],
-        [
-          "When was Gemini 4 Carbon announced?",
-          "Detected on Google's pricing page in November 2026."
+          "Is Carbon more expensive than Argon?",
+          "Same price and same doubling date (Dec 1). Both are premium reasoning tiers."
         ]
-      ]
+      ],
+      "cache": 0.1,
+      "input_after": 4.0,
+      "output_after": 20.0,
+      "price_change_date": "2026-12-01"
     },
     {
       "slug": "gemini-4-hydrogen-pricing",
@@ -4721,29 +4741,47 @@
       "api_id": "gemini-4-hydrogen",
       "vendor": "Google",
       "released": "2026-11",
-      "summary": "Newest Gemini 4 family model (elemental codename series: Argon → Carbon → Hydrogen). Pricing not yet published.",
+      "summary": "Google's accessible intelligence tier — flat $1.50/$7.50 across full 1M context.",
       "free_tier": "Not available (no free tier)",
-      "input": null,
-      "output": null,
+      "input": 1.5,
+      "output": 7.5,
       "chips": [
-        "pricing not yet published"
+        "flat pricing across 1M context"
       ],
-      "prices": [],
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 1.5,
+          "output": 7.5,
+          "cache_read": 0.075,
+          "primary": true,
+          "valid_from": "2026-11-12",
+          "source": {
+            "url": "https://blog.google",
+            "verified_at": "2026-11-25",
+            "snippet": "Gemini 4 Hydrogen $1.50/$7.50"
+          }
+        }
+      ],
       "extras": [
-        "Third Gemini 4 variant (after Argon and Carbon)",
-        "Elemental naming pattern suggests tiered family",
-        "Pricing not yet rendered on SPA page"
+        "$1.50/$7.50 flat across entire 1M context",
+        "No tiered pricing",
+        "Cache read $0.075"
       ],
       "faq": [
         [
           "How much does Gemini 4 Hydrogen cost?",
-          "Pricing has not been published yet. We'll update when available."
-        ],
-        [
-          "What is the Gemini 4 family?",
-          "Google's next-gen models with elemental codenames: Argon, Carbon, Hydrogen — likely representing different capability/price tiers."
+          "$1.50/$7.50 flat across full 1M context."
         ]
-      ]
+      ],
+      "cache": 0.075
     },
     {
       "slug": "openai-gpt-6.2-astra-pricing",
@@ -5035,29 +5073,45 @@
       "api_id": "gemini-4-neon",
       "vendor": "Google",
       "released": "2026-11",
-      "summary": "Fourth member of the Gemini 4 elemental family (Argon/Carbon/Hydrogen/Neon). Pricing not yet published.",
+      "summary": "Google's frontier-level intelligence — $3/$15 for fast task completion.",
       "free_tier": "Not available (no free tier)",
-      "input": null,
-      "output": null,
-      "chips": [
-        "pricing not yet published"
+      "input": 3.0,
+      "output": 15.0,
+      "chips": [],
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 3.0,
+          "output": 15.0,
+          "cache_read": 0.15,
+          "primary": true,
+          "valid_from": "2026-11-25",
+          "source": {
+            "url": "https://aistudio.google.com/docs/pricing",
+            "verified_at": "2026-11-25",
+            "snippet": "gemini-4-neon $3/$15"
+          }
+        }
       ],
-      "prices": [],
       "extras": [
-        "Fourth Gemini 4 variant (after Argon, Carbon, Hydrogen)",
-        "Elemental naming pattern continues",
-        "Pricing not yet rendered on SPA page"
+        "$3/$15 per 1M tokens",
+        "Cached $0.15",
+        "Frontier-level with fast completion"
       ],
       "faq": [
         [
           "How much does Gemini 4 Neon cost?",
-          "Pricing has not been published yet. We'll update when available."
-        ],
-        [
-          "What is the Gemini 4 family?",
-          "Google's next-gen models with elemental codenames: Argon, Carbon, Hydrogen, Neon — likely representing different capability/price tiers."
+          "$3/$15 per 1M tokens."
         ]
-      ]
+      ],
+      "cache": 0.15
     }
   ]
 }

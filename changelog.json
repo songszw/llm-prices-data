@@ -1,6 +1,14 @@
 {
  "events": [
   {
+   "date": "2026-11-25",
+   "type": "update",
+   "vendor": "Google",
+   "title": "Gemini 4 Carbon/Hydrogen/Neon pricing published",
+   "detail": "Carbon $2/$10 doubles Dec 1 (same as Argon). Hydrogen $1.50/$7.50 flat. Neon $3/$15.",
+   "source": "https://blog.google"
+  },
+  {
    "date": "2026-11-19",
    "type": "add",
    "vendor": "Google",
