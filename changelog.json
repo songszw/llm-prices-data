@@ -2,6 +2,14 @@
  "events": [
   {
    "date": "2026-11-25",
+   "type": "add",
+   "vendor": "OpenAI",
+   "title": "4 Healthcare variants added (GPT-6/6.1/6.2 Astra+Sol)",
+   "detail": "OpenAI launched healthcare specializations across 3 generations. All same pricing as base models. Sentinel detected + same-day deployment.",
+   "source": "https://developers.openai.com/api/docs/pricing"
+  },
+  {
+   "date": "2026-11-25",
    "type": "update",
    "vendor": "Google",
    "title": "Gemini 4 Carbon/Hydrogen/Neon pricing published",

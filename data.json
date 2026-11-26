@@ -5112,6 +5112,255 @@
         ]
       ],
       "cache": 0.15
+    },
+    {
+      "slug": "openai-gpt-6-astra-healthcare-pricing",
+      "name": "GPT-6 Astra Healthcare",
+      "api_id": "gpt-6-astra-healthcare",
+      "vendor": "OpenAI",
+      "released": "2026-11",
+      "summary": "GPT-6 Astra specialized for healthcare — same $10/$50 as base Astra.",
+      "free_tier": "No free tier",
+      "input": 10.0,
+      "output": 50.0,
+      "cache": 1.0,
+      "batch_input": 5.0,
+      "batch_output": 25.0,
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 10.0,
+          "output": 50.0,
+          "cache_read": 1.0,
+          "primary": true,
+          "valid_from": "2026-11-25",
+          "source": {
+            "url": "https://developers.openai.com/api/docs/pricing",
+            "verified_at": "2026-11-25",
+            "snippet": "gpt-6-astra-healthcare $10.0 $50.0 $1.0"
+          }
+        }
+      ],
+      "extras": [
+        "$10.0/$50.0 per 1M tokens",
+        "Same price as base model",
+        "Healthcare specialization",
+        "Batch: ${round(i/2,2)}/${round(o/2,2)}"
+      ],
+      "faq": [
+        [
+          "How much does GPT-6 Astra Healthcare cost?",
+          "$10.0 per 1M input and $50.0 per 1M output — same as the base model."
+        ]
+      ]
+    },
+    {
+      "slug": "openai-gpt-6.2-astra-healthcare-pricing",
+      "name": "GPT-6.2 Astra Healthcare",
+      "api_id": "gpt-6.2-astra-healthcare",
+      "vendor": "OpenAI",
+      "released": "2026-11",
+      "summary": "GPT-6.2 Astra specialized for healthcare — same $8/$40 as base 6.2 Astra (20% cheaper than 6.0).",
+      "free_tier": "No free tier",
+      "input": 8.0,
+      "output": 40.0,
+      "cache": 0.4,
+      "batch_input": 4.0,
+      "batch_output": 20.0,
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 8.0,
+          "output": 40.0,
+          "cache_read": 0.4,
+          "primary": true,
+          "valid_from": "2026-11-25",
+          "source": {
+            "url": "https://developers.openai.com/api/docs/pricing",
+            "verified_at": "2026-11-25",
+            "snippet": "gpt-6.2-astra-healthcare $8.0 $40.0 $0.4"
+          }
+        }
+      ],
+      "extras": [
+        "$8.0/$40.0 per 1M tokens",
+        "Same price as base model",
+        "Healthcare specialization",
+        "Batch: ${round(i/2,2)}/${round(o/2,2)}"
+      ],
+      "faq": [
+        [
+          "How much does GPT-6.2 Astra Healthcare cost?",
+          "$8.0 per 1M input and $40.0 per 1M output — same as the base model."
+        ]
+      ]
+    },
+    {
+      "slug": "openai-gpt-6.1-sol-healthcare-pricing",
+      "name": "GPT-6.1 Sol Healthcare",
+      "api_id": "gpt-6.1-sol-healthcare",
+      "vendor": "OpenAI",
+      "released": "2026-11",
+      "summary": "GPT-6.1 Sol specialized for healthcare — same $2/$10 as base Sol.",
+      "free_tier": "No free tier",
+      "input": 2.0,
+      "output": 10.0,
+      "cache": 0.1,
+      "batch_input": 1.0,
+      "batch_output": 5.0,
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 2.0,
+          "output": 10.0,
+          "cache_read": 0.1,
+          "primary": true,
+          "valid_from": "2026-11-25",
+          "source": {
+            "url": "https://developers.openai.com/api/docs/pricing",
+            "verified_at": "2026-11-25",
+            "snippet": "gpt-6.1-sol-healthcare $2.0 $10.0 $0.1"
+          }
+        }
+      ],
+      "extras": [
+        "$2.0/$10.0 per 1M tokens",
+        "Same price as base model",
+        "Healthcare specialization",
+        "Batch: ${round(i/2,2)}/${round(o/2,2)}"
+      ],
+      "faq": [
+        [
+          "How much does GPT-6.1 Sol Healthcare cost?",
+          "$2.0 per 1M input and $10.0 per 1M output — same as the base model."
+        ]
+      ]
+    },
+    {
+      "slug": "openai-gpt-6.2-sol-healthcare-pricing",
+      "name": "GPT-6.2 Sol Healthcare",
+      "api_id": "gpt-6.2-sol-healthcare",
+      "vendor": "OpenAI",
+      "released": "2026-11",
+      "summary": "GPT-6.2 Sol specialized for healthcare — same $2/$10 as base Sol.",
+      "free_tier": "No free tier",
+      "input": 2.0,
+      "output": 10.0,
+      "cache": 0.1,
+      "batch_input": 1.0,
+      "batch_output": 5.0,
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 2.0,
+          "output": 10.0,
+          "cache_read": 0.1,
+          "primary": true,
+          "valid_from": "2026-11-25",
+          "source": {
+            "url": "https://developers.openai.com/api/docs/pricing",
+            "verified_at": "2026-11-25",
+            "snippet": "gpt-6.2-sol-healthcare $2.0 $10.0 $0.1"
+          }
+        }
+      ],
+      "extras": [
+        "$2.0/$10.0 per 1M tokens",
+        "Same price as base model",
+        "Healthcare specialization",
+        "Batch: ${round(i/2,2)}/${round(o/2,2)}"
+      ],
+      "faq": [
+        [
+          "How much does GPT-6.2 Sol Healthcare cost?",
+          "$2.0 per 1M input and $10.0 per 1M output — same as the base model."
+        ]
+      ]
+    },
+    {
+      "slug": "qwen3.8-27b-pricing",
+      "name": "Qwen3.8-27B",
+      "api_id": "Qwen/Qwen3.8-27B",
+      "vendor": "Qwen",
+      "released": "2026-11",
+      "summary": "Newest 27B dense Qwen — $0.425/$2.55 hosted on SiliconFlow. Better output pricing than 3.6-27B ($2.55 vs $3.20).",
+      "free_tier": "Hosted — see SiliconFlow for free tiers",
+      "input": 0.425,
+      "output": 2.55,
+      "cache": 0.085,
+      "context_window": "262K",
+      "chips": [
+        "hosted via SiliconFlow"
+      ],
+      "extras": [
+        "$0.425/$2.55 per 1M tokens",
+        "Cached input $0.085 (20% of input)",
+        "262K context window",
+        "Output 20% cheaper than 3.6-27B ($2.55 vs $3.20)",
+        "Hosted on SiliconFlow international (USD)",
+        "Prices from siliconflow.com"
+      ],
+      "faq": [
+        [
+          "How much does Qwen3.8-27B cost?",
+          "$0.425 per 1M input and $2.55 per 1M output, hosted on SiliconFlow."
+        ],
+        [
+          "Is 3.8-27B cheaper than 3.6-27B?",
+          "Output is 20% cheaper ($2.55 vs $3.20), but input is higher ($0.425 vs $0.30)."
+        ]
+      ],
+      "hosted": true,
+      "prices": [
+        {
+          "modality": "text",
+          "tier": "standard",
+          "context_band": "base",
+          "region": "global",
+          "variant": null,
+          "unit": "per_1m_tokens",
+          "currency": "USD",
+          "direction": "bidirectional",
+          "input": 0.425,
+          "output": 2.55,
+          "cache_read": 0.085,
+          "primary": true,
+          "valid_from": "2026-11-25",
+          "source": {
+            "url": "https://www.siliconflow.com/pricing",
+            "verified_at": "2026-11-25",
+            "snippet": "Qwen3.8-27B 262K $0.425 $0.085 $2.55"
+          }
+        }
+      ]
     }
   ]
 }
