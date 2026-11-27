@@ -1,6 +1,14 @@
 {
  "events": [
   {
+   "date": "2026-11-26",
+   "type": "change",
+   "vendor": "OpenAI",
+   "title": "GPT-6 Rosalind price cut: $15/$75 → $10/$50 (-33%)",
+   "detail": "Major price reduction on ultra-premium tier. Now same price as Astra. Also: 7 models tracked for 12/31 promo expiry. GPT Live 1.1 added.",
+   "source": "https://developers.openai.com/api/docs/pricing"
+  },
+  {
    "date": "2026-11-25",
    "type": "add",
    "vendor": "OpenAI",
